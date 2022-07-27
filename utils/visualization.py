@@ -46,7 +46,7 @@ def set_graph_attributes(G:nx.Graph, size_key:pd.DataFrame) -> None:
     """
     Battery of functions.
     """
-    set_size(G, size_key)
+    set_node_size(G, size_key)
     partition_communities(G)
 
 def show_graph(G: nx.Graph, notebook:bool=False, physics_buttons:bool=False) -> None:
@@ -68,4 +68,4 @@ def show_graph(G: nx.Graph, notebook:bool=False, physics_buttons:bool=False) -> 
         net.width = "70%"
     else:
         net.repulsion()
-    net.show(f"output/X-Men_{timestamp}_n{nodes}-e{edges}.html")
+    net.show(f"output-test/X-Men_{timestamp}_n{nodes}-e{edges}.html")

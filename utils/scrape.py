@@ -10,7 +10,9 @@ TITLES_TO_DOWNLOAD = [{"title": "X-Men Vol 1",         "first_issue": 94,  "last
                       {"title": "New Mutants Vol 1",   "first_issue": 1,   "last_issue": 100},
                       {"title": "X-Factor Vol 1",      "first_issue": 1,   "last_issue": 70},
                       {"title": "Excalibur Vol 1",     "first_issue": 1,   "last_issue": 41},
-                      {"title": "X-Force Vol 1",       "first_issue": 1,   "last_issue": 15}]
+                      {"title": "X-Force Vol 1",       "first_issue": 1,   "last_issue": 15},
+                      {"title": "Fallen Angels Vol 1", "first_issue": 1,   "last_issue": 8},
+                      {"title": "X-Terminators Vol 1", "first_issue": 1,   "last_issue": 4}]
 
 def build_full_list_of_issues(titles_to_download:list=TITLES_TO_DOWNLOAD) -> list:
     """

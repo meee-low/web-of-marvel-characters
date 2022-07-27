@@ -1,7 +1,10 @@
+from unicodedata import category
 import pandas as pd
-import scrape
+from utils import scrape, aliases
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+from pandas.api.types import CategoricalDtype
+import numpy as np
 
 """
 The goal of this module is to take in a list of issues and return a dataframe.
@@ -13,22 +16,35 @@ Output: dataframe of appearances.
     - values: type of appearance
 """
 
-def build_full_table(issues:list) -> pd.DataFrame:
-    """ Takes in a list of issues and urls, and returns a table of appearances. """
-    def save_full_table(main_table:pd.DataFrame, path:str="table_of_appearances.csv") -> None:
-        """Save the full table to a csv."""
-        main_table.to_csv(path, index=False)
+TYPE_OF_APPEARANCE = CategoricalDtype(categories=["Mentions", "Minor Appearances", "Appearances"], ordered=True)
 
-    main_table = pd.DataFrame({'character name': pd.Series(dtype='str')})
+def build_full_table(issues:list, save_progress=True) -> pd.DataFrame:
+    """ Takes in a list of issues and urls, and returns a table of appearances. """
+    def save_full_table(main_table:pd.DataFrame, path:str="data/table_of_appearances.csv") -> None:
+        """Save the full table to a csv."""
+        if save_progress:
+            main_table.to_csv(path, index=False)
+
+    main_table = pd.DataFrame({'character name': pd.Series(dtype='str')}) #initialize first column
     for i, issue in enumerate(tqdm(issues)):
-        issue_table = build_issue_table(issue)
-        main_table = append_issue_column_to_main_table(main_table, issue_table)
+        # iterate through each issue in the list of issues.
+        issue_table = build_issue_table(issue) # make a column with the values of the issue
+        main_table = append_issue_column_to_main_table(main_table, issue_table) # merge to the main table as you go
         if i % 10 == 0:
             # every 10 issues, save it to the file
             save_full_table(main_table)
+    save_full_table(no_dupes)
+    
+    # remove duplicates:
+    no_dupes = remove_duplicates(main_table)
+    
+    # swap the names for the hero names:
+    # this has to be done at the end because we use the default names as unique identifiers when merging the issues
+    replace_aliases(no_dupes)
+    
     #finally, save and return it
-    save_full_table(main_table)
-    return main_table
+    save_full_table(no_dupes)
+    return no_dupes
 
 def build_issue_table(issue:dict) -> pd.DataFrame:
     """
@@ -77,13 +93,16 @@ def build_issue_table(issue:dict) -> pd.DataFrame:
         
         # The last bit is the kind of appearance.
         issue_table[issue_name] = issue_table["character name"].str.split("/").str[-1]
+        #change the type of the series/column to category.
+        issue_table[issue_name] = issue_table[issue_name].astype(TYPE_OF_APPEARANCE)
         
         # All the earlier bits (usually 1), will be the name.
         # We use str.join to join the bits back together to be safe just in case there's a '/' in the name itself.
         issue_table["character name"] = issue_table["character name"].str.split("/").str[:-1].str.join("/")
         
         # Only keep the rows that are "Appearances", "Minor Appearances" or "Mentions".
-        issue_table = issue_table[issue_table[issue_name].isin(["Appearances", "Minor Appearances", "Mentions"])]
+        # No longer necessary with category type.
+        # issue_table = issue_table[issue_table[issue_name].isin(["Appearances", "Minor Appearances", "Mentions"])]
         
         return issue_table
     
@@ -101,15 +120,23 @@ def append_issue_column_to_main_table(main_table:pd.DataFrame, issue_table:pd.Da
     main_table = main_table.merge(issue_table, on="character name", how="outer")
     return main_table
 
+def remove_duplicates(main_table:pd.DataFrame) -> pd.DataFrame:
+    """
+    Removes duplicate rows.
+    """
+    main_table_no_dupes = main_table.groupby("character name", as_index=False, sort=False).max()
+    
+    return main_table_no_dupes
 
+def replace_aliases(main_table:pd.DataFrame) -> pd.DataFrame:
+    """
+    Replaces the character names for their aliases, as specified in the aliases module.
+    """
+    main_table["character name"].replace(aliases.ALIASES, regex=False, inplace=True)
+    return main_table
 
-#%%
-if __name__ == "__main__":
-    import scrape
+def main():
     build_full_table(scrape.build_full_list_of_issues())
 
-
-
-
-
-#%%
+if __name__ == "__main__":
+    main()

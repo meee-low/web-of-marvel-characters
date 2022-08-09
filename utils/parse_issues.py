@@ -17,7 +17,7 @@ Output: dataframe of appearances.
 
 TYPE_OF_APPEARANCE = CategoricalDtype(categories=["Mentions", "Minor Appearances", "Appearances"], ordered=True)
 
-def build_full_table(issues:list, save_progress=True) -> pd.DataFrame:
+def build_full_table(issues:list, path:str="data/table_of_appearances.csv", save_progress=True) -> pd.DataFrame:
     """ Takes in a list of issues and urls, and returns a table of appearances. """
     def save_full_table(main_table:pd.DataFrame, path:str="data/table_of_appearances.csv") -> None:
         """Save the full table to a csv."""
@@ -31,8 +31,8 @@ def build_full_table(issues:list, save_progress=True) -> pd.DataFrame:
         main_table = append_issue_column_to_main_table(main_table, issue_table) # merge to the main table as you go
         if i % 10 == 0:
             # every 10 issues, save it to the file
-            save_full_table(main_table)
-    save_full_table(main_table)
+            save_full_table(main_table, path=path)
+    save_full_table(main_table, path=path)
     
     # remove duplicates:
     no_dupes = remove_duplicates(main_table)
@@ -42,7 +42,7 @@ def build_full_table(issues:list, save_progress=True) -> pd.DataFrame:
     replace_aliases(no_dupes)
     
     #finally, save and return it
-    save_full_table(no_dupes)
+    save_full_table(no_dupes, path=path)
     return no_dupes
 
 def build_issue_table(issue:dict) -> pd.DataFrame:

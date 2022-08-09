@@ -1,4 +1,3 @@
-from unicodedata import category
 import pandas as pd
 from utils import scrape, aliases
 from bs4 import BeautifulSoup
@@ -33,7 +32,7 @@ def build_full_table(issues:list, save_progress=True) -> pd.DataFrame:
         if i % 10 == 0:
             # every 10 issues, save it to the file
             save_full_table(main_table)
-    save_full_table(no_dupes)
+    save_full_table(main_table)
     
     # remove duplicates:
     no_dupes = remove_duplicates(main_table)

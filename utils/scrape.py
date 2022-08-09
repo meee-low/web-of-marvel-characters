@@ -1,3 +1,4 @@
+from utils.ComicSeries import ComicSeries
 import requests
 from bs4 import BeautifulSoup
 import logging
@@ -5,42 +6,32 @@ import logging
 #set up logging
 logging.basicConfig(filename = "error.log", encoding='utf-8', level=logging.INFO)
 
-TITLES_TO_DOWNLOAD = [{"title": "X-Men Vol 1",         "first_issue": 94,  "last_issue": 141},
-                      {"title": "Uncanny X-Men Vol 1", "first_issue": 142, "last_issue": 280},
-                      {"title": "New Mutants Vol 1",   "first_issue": 1,   "last_issue": 100},
-                      {"title": "X-Factor Vol 1",      "first_issue": 1,   "last_issue": 70},
-                      {"title": "Excalibur Vol 1",     "first_issue": 1,   "last_issue": 41},
-                      {"title": "X-Force Vol 1",       "first_issue": 1,   "last_issue": 15},
-                      {"title": "Fallen Angels Vol 1", "first_issue": 1,   "last_issue": 8},
-                      {"title": "X-Terminators Vol 1", "first_issue": 1,   "last_issue": 4}]
 
-def build_full_list_of_issues(titles_to_download:list=TITLES_TO_DOWNLOAD) -> list:
+# just a list to test with. corresponds to Claremont Era X-comics
+TITLES_TO_DOWNLOAD = [ComicSeries(title="X-Men",         volume=1, first_issue=94, last_issue=141),
+                      ComicSeries(title="Uncanny X-Men", volume=1, first_issue=142,last_issue=280),
+                      ComicSeries(title="New Mutants",   volume=1, first_issue=1, last_issue=100),
+                      ComicSeries(title="X-Factor",      volume=1, first_issue=1, last_issue=70),
+                      ComicSeries(title="Excalibur",     volume=1, first_issue=1, last_issue=41),
+                      ComicSeries(title="X-Force",       volume=1, first_issue=1, last_issue=15),
+                      ComicSeries(title="Fallen Angels", volume=1, first_issue=1, last_issue=8),
+                      ComicSeries(title="X-Terminators", volume=1, first_issue=1, last_issue=4)]
+
+def build_full_list_of_issues(titles_to_download:list[ComicSeries]=TITLES_TO_DOWNLOAD) -> list[dict]:
     """
     Returns a list of issues for each title in TITLES_TO_DOWNLOAD.
     Each issue is a dictionary with the keys "title" and "url".
     """
+    if type(titles_to_download) == ComicSeries:
+        # only one title to download, so just return its issues
+        return titles_to_download.issue_url_pairs()
+    # else, multiple titles to download, so append their issues to the list
     full_list_of_issues = []
     for t in titles_to_download:
-        title, first_issue, last_issue = t["title"], t["first_issue"], t["last_issue"]
-        for issue in list_issues(title, first_issue, last_issue):
-            full_list_of_issues.append(issue)
+        full_list_of_issues.extend(t.issue_url_pairs())
+
     return full_list_of_issues
 
-def list_issues(title:str, first_issue:int, last_issue:int) -> list:
-    """
-    Returns a list of issues for a given title.
-    Each issue is a dictionary with the keys "title" and "url".
-    """
-    marvel_wiki_url = "https://marvel.fandom.com/wiki/"
-    issues = []
-    
-    for i in range(first_issue, last_issue+1):
-        issue_name = title + " " + str(i)
-        url = marvel_wiki_url + issue_name
-        url = url.replace(" ", "_") # change spaces to underscores
-        url = remove_special_characters_from_url(url)
-        issues.append({"title": issue_name, "url": url})
-    return issues
 
 def soup_from_url(url:str, retries=0, max_retries=3):
     """
@@ -64,12 +55,3 @@ def soup_from_url(url:str, retries=0, max_retries=3):
     else:
         logging.error(f"Tried too many times and failed. Exiting.")
         assert False #assert False is bad practice. create an err.
-
-def space_to_underscores(string):
-    """Replace spaces with underscores."""
-    return string.replace(" ", "_")
-
-def remove_special_characters_from_url(string):
-    """Remove special characters from a string. """
-    allowed_characters = "_/:.-?%&()"
-    return "".join(c for c in string if c.isalnum() or c in allowed_characters)

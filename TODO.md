@@ -1,0 +1,2 @@
+- Automatically set values for the cut-off threshold to trim the number of edges.
+- Automatically trim the less frequent characters.

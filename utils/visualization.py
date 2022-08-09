@@ -12,7 +12,15 @@ def make_nx_graph(pandas_edgelist:pd.DataFrame) -> nx.Graph:
     """
     edge_list_copy = pandas_edgelist.copy()
     edge_list_copy.columns = ["source", "target", "weight"]
-    edge_list_copy["width"] = edge_list_copy["weight"] * 5 # scale up the weight
+    
+    min_weight = edge_list_copy["weight"].min()
+    max_weight = edge_list_copy["weight"].max()
+    desired_max_width = 10
+    desired_min_width = 0.5
+    
+    lin_scale = lambda x: linear_scale(x, min_weight, max_weight, desired_min_width, desired_max_width)
+    
+    edge_list_copy["width"] = edge_list_copy["weight"].apply(lin_scale) # scale up the weight
     G = nx.from_pandas_edgelist(edge_list_copy,
                                 source = "source",
                                 target = "target",
@@ -34,10 +42,16 @@ def set_node_size(G:nx.Graph, size_key:pd.DataFrame) -> None:
     sizes_dict = {}
     
     #note: this should be scaled dynamically, based on the max and min number of appearances for the characters
-    # maximum should have a size of around 30, minimum should have a size of around 5
+    # maximum should have a size of around 35, minimum should have a size of around 5
     # scale linearly between the two
+    
+    min_number_of_appearances = size_key["Appearances"].min()
+    max_number_of_appearances = size_key["Appearances"].max()
+    desired_max_size = 35
+    desired_min_size = 5
+    
     for character, number_of_appearances in zip(sizes['character name'], sizes['Appearances']):
-        sizes_dict[character] = (number_of_appearances / 7) + 5
+        sizes_dict[character] = linear_scale(number_of_appearances, min_number_of_appearances, max_number_of_appearances, desired_min_size, desired_max_size)
     nx.set_node_attributes(G, sizes_dict, 'size')
 
 def partition_communities(G:nx.Graph) -> None:
@@ -75,3 +89,17 @@ def show_graph(G: nx.Graph, notebook:bool=False, physics_buttons:bool=False, tit
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H-%M-%S")
     file_path = os.path.join(save_path, f"{title}_{timestamp}_n{nodes}-e{edges}.html")
     net.show(file_path)
+    
+    
+def linear_scale(x, min_x, max_x, min_y, max_y):
+    """
+    Linear scale.
+    
+    From:     
+    y = a(x-offset) + b
+    
+    a = (max_y - min_y) / (max_x - min_x)
+    b = min_y
+    offset = min_x
+    """
+    return ((max_y - min_y) / (max_x - min_x)) * (x - min_x) + min_y

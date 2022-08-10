@@ -1,0 +1,980 @@
+source,target,correlation
+Professor X (Charles Xavier),Magneto (Max Eisenhardt),0.5714737229352707
+Professor X (Charles Xavier),Quiet Council of Krakoa,0.6015833732178233
+Professor X (Charles Xavier),Nightcrawler (Kurt Wagner),0.5113740153356022
+Professor X (Charles Xavier),Mystique (Raven Darkhölme),0.5848177513130964
+Storm (Ororo Munroe),Nightcrawler (Kurt Wagner),0.5115027457388643
+Jean Grey,Cyclops (Scott Summers),0.5571882827650487
+Magneto (Max Eisenhardt),Professor X (Charles Xavier),0.5714737229352707
+Magneto (Max Eisenhardt),Quiet Council of Krakoa,0.6462250084132265
+Magneto (Max Eisenhardt),Mystique (Raven Darkhölme),0.5355155439998587
+Magneto (Max Eisenhardt),Bennet du Paris,0.5010222530134336
+White Queen (Emma Frost),Quiet Council of Krakoa,0.5512855003288246
+White Queen (Emma Frost),Mystique (Raven Darkhölme),0.5145797863156811
+White Queen (Emma Frost),Shadowcat (Kitty Pryde),0.5291753612389024
+White Queen (Emma Frost),Black King (Sebastian Shaw),0.6872240020080415
+White Queen (Emma Frost),Bennet du Paris,0.5189491584691645
+Cyclops (Scott Summers),Jean Grey,0.5571882827650487
+Quiet Council of Krakoa,Professor X (Charles Xavier),0.6015833732178233
+Quiet Council of Krakoa,Magneto (Max Eisenhardt),0.6462250084132265
+Quiet Council of Krakoa,White Queen (Emma Frost),0.5512855003288246
+Quiet Council of Krakoa,Mister Sinister (Nathaniel Essex),0.5144991906037968
+Quiet Council of Krakoa,Mystique (Raven Darkhölme),0.6197754645134798
+Quiet Council of Krakoa,Bennet du Paris,0.5737904933507912
+Nightcrawler (Kurt Wagner),Professor X (Charles Xavier),0.5113740153356022
+Nightcrawler (Kurt Wagner),Storm (Ororo Munroe),0.5115027457388643
+Nightcrawler (Kurt Wagner),Mister Sinister (Nathaniel Essex),0.5371889409281004
+Nightcrawler (Kurt Wagner),Mystique (Raven Darkhölme),0.64771477232647
+Nightcrawler (Kurt Wagner),Black King (Sebastian Shaw),0.5529166650800525
+Nightcrawler (Kurt Wagner),Bennet du Paris,0.6614011463244194
+Beast (Henry McCoy),Angel (Warren Worthington III),0.5355144044222196
+Mister Sinister (Nathaniel Essex),Quiet Council of Krakoa,0.5144991906037968
+Mister Sinister (Nathaniel Essex),Nightcrawler (Kurt Wagner),0.5371889409281004
+Mister Sinister (Nathaniel Essex),Mystique (Raven Darkhölme),0.5817120830084281
+Mister Sinister (Nathaniel Essex),Bennet du Paris,0.6817064124737064
+Mystique (Raven Darkhölme),Professor X (Charles Xavier),0.5848177513130964
+Mystique (Raven Darkhölme),Magneto (Max Eisenhardt),0.5355155439998587
+Mystique (Raven Darkhölme),White Queen (Emma Frost),0.5145797863156811
+Mystique (Raven Darkhölme),Quiet Council of Krakoa,0.6197754645134798
+Mystique (Raven Darkhölme),Nightcrawler (Kurt Wagner),0.64771477232647
+Mystique (Raven Darkhölme),Mister Sinister (Nathaniel Essex),0.5817120830084281
+Mystique (Raven Darkhölme),Black King (Sebastian Shaw),0.5647912940125072
+Mystique (Raven Darkhölme),Bennet du Paris,0.6751076927919217
+Shadowcat (Kitty Pryde),White Queen (Emma Frost),0.5291753612389024
+Shadowcat (Kitty Pryde),Black King (Sebastian Shaw),0.5752233788120266
+Shadowcat (Kitty Pryde),Marauders (Pryde),0.61265384682109
+Shadowcat (Kitty Pryde),Lockheed,0.5018747829126372
+Black King (Sebastian Shaw),White Queen (Emma Frost),0.6872240020080415
+Black King (Sebastian Shaw),Nightcrawler (Kurt Wagner),0.5529166650800525
+Black King (Sebastian Shaw),Mystique (Raven Darkhölme),0.5647912940125072
+Black King (Sebastian Shaw),Shadowcat (Kitty Pryde),0.5752233788120266
+Black King (Sebastian Shaw),Bennet du Paris,0.6356311639104971
+Magik (Illyana Rasputina),Warlock,0.5127165248503158
+Magik (Illyana Rasputina),New Mutants,0.6091436934254447
+Magik (Illyana Rasputina),Mirage (Danielle Moonstar),0.6689819521891801
+Magik (Illyana Rasputina),Karma (Xi'an Coy Manh),0.5900300218800768
+Magik (Illyana Rasputina),Wolfsbane (Rahne Sinclair),0.552471133837904
+Bennet du Paris,Magneto (Max Eisenhardt),0.5010222530134336
+Bennet du Paris,White Queen (Emma Frost),0.5189491584691645
+Bennet du Paris,Quiet Council of Krakoa,0.5737904933507912
+Bennet du Paris,Nightcrawler (Kurt Wagner),0.6614011463244194
+Bennet du Paris,Mister Sinister (Nathaniel Essex),0.6817064124737064
+Bennet du Paris,Mystique (Raven Darkhölme),0.6751076927919217
+Bennet du Paris,Black King (Sebastian Shaw),0.6356311639104971
+Cypher (Douglas Ramsey),Warlock,0.8448389957667297
+Sage,X-Force (Strike Team),0.6082089257486788
+Sage,Neena Thurman,0.5348695366142269
+Sage,XENO,0.5116229725672665
+X-Force (Strike Team),Sage,0.6082089257486788
+X-Force (Strike Team),Neena Thurman,0.6856392785543812
+X-Force (Strike Team),Quintavius Quire,0.6042148280787688
+Kwannon,Scalphunter,0.6487915315263545
+Kwannon,Nanny,0.6142383047582481
+Kwannon,Kyle Gibney,0.6448670640186588
+Kwannon,Hellions (Essex),0.589643875127351
+Kwannon,Empath (Manuel de la Rocha),0.5748511470631824
+Kwannon,Orphan-Maker (Peter),0.6015819273496108
+Iceman (Bobby Drake),Marauders (Pryde),0.6224732712402705
+Iceman (Bobby Drake),Pyro,0.6390059165570198
+Jubilee (Jubilation Lee),Psylocke (Betsy Braddock),0.6247197500082844
+Jubilee (Jubilation Lee),Gambit (Remy LeBeau),0.6808911999428031
+Jubilee (Jubilation Lee),Rogue (Anna Marie),0.5021691466656448
+Jubilee (Jubilation Lee),Rictor (Julio Richter),0.6763755412938909
+Jubilee (Jubilation Lee),Excalibur,0.740117576652866
+Jubilee (Jubilation Lee),Shogo Lee,0.6296437329689638
+Jubilee (Jubilation Lee),Captain Britain (Brian Braddock),0.5535488288006565
+Jubilee (Jubilation Lee),Meggan Puceanu,0.6271764763651414
+Warlock,Magik (Illyana Rasputina),0.5127165248503158
+Warlock,Cypher (Douglas Ramsey),0.8448389957667297
+Havok (Alexander Summers),Scalphunter,0.653988130579483
+Havok (Alexander Summers),Nanny,0.6944141167169982
+Havok (Alexander Summers),Kyle Gibney,0.6899161818612671
+Havok (Alexander Summers),Hellions (Essex),0.6314139419662348
+Havok (Alexander Summers),Empath (Manuel de la Rocha),0.6600005357827927
+Havok (Alexander Summers),Orphan-Maker (Peter),0.6433015345143845
+Psylocke (Betsy Braddock),Jubilee (Jubilation Lee),0.6247197500082844
+Psylocke (Betsy Braddock),Gambit (Remy LeBeau),0.6635752412109872
+Psylocke (Betsy Braddock),Rictor (Julio Richter),0.6402505353429924
+Psylocke (Betsy Braddock),Excalibur,0.6353641905641368
+Psylocke (Betsy Braddock),Opal Luna Saturnyne (Earth-9),0.5447363606051494
+Psylocke (Betsy Braddock),Shogo Lee,0.6280821471262934
+Psylocke (Betsy Braddock),Captain Britain (Brian Braddock),0.6354275560245722
+Psylocke (Betsy Braddock),Meggan Puceanu,0.5896338120718825
+Psylocke (Betsy Braddock),Monarch (James Braddock Jr.),0.5363007659052835
+Psylocke (Betsy Braddock),Fury (Earth-238),0.5034380134444117
+Psylocke (Betsy Braddock),Peter Wisdom,0.5284752290316266
+Hope Summers,Fabio Medina,0.7331628820180386
+Hope Summers,Joshua Foley,0.8308684831941449
+Hope Summers,Five,0.8280972845872565
+Hope Summers,Proteus (Kevin MacTaggert),0.8116485622397057
+Hope Summers,Eva Bell,0.7775734203936351
+Angel (Warren Worthington III),Beast (Henry McCoy),0.5355144044222196
+Gambit (Remy LeBeau),Jubilee (Jubilation Lee),0.6808911999428031
+Gambit (Remy LeBeau),Psylocke (Betsy Braddock),0.6635752412109872
+Gambit (Remy LeBeau),Rogue (Anna Marie),0.6146905044214447
+Gambit (Remy LeBeau),Rictor (Julio Richter),0.7655906697279434
+Gambit (Remy LeBeau),Excalibur,0.6597545083276182
+Gambit (Remy LeBeau),Shogo Lee,0.610908180370994
+Gambit (Remy LeBeau),Meggan Puceanu,0.5938041937184588
+Gambit (Remy LeBeau),Peter Wisdom,0.5319342658414795
+Laura Kinney,X-Men,0.5397809297349536
+Laura Kinney,Everett Thomas,0.5881192472231057
+Rogue (Anna Marie),Jubilee (Jubilation Lee),0.5021691466656448
+Rogue (Anna Marie),Gambit (Remy LeBeau),0.6146905044214447
+Rogue (Anna Marie),Rictor (Julio Richter),0.5215786399208409
+Rogue (Anna Marie),Excalibur,0.6208013070915029
+Rictor (Julio Richter),Jubilee (Jubilation Lee),0.6763755412938909
+Rictor (Julio Richter),Psylocke (Betsy Braddock),0.6402505353429924
+Rictor (Julio Richter),Gambit (Remy LeBeau),0.7655906697279434
+Rictor (Julio Richter),Rogue (Anna Marie),0.5215786399208409
+Rictor (Julio Richter),Excalibur,0.7903952042788772
+Rictor (Julio Richter),Shogo Lee,0.556272139676409
+Rictor (Julio Richter),Captain Britain (Brian Braddock),0.5228453167381908
+Rictor (Julio Richter),Meggan Puceanu,0.6160115587324874
+Rictor (Julio Richter),Monarch (James Braddock Jr.),0.5547764209994002
+Neena Thurman,Sage,0.5348695366142269
+Neena Thurman,X-Force (Strike Team),0.6856392785543812
+Neena Thurman,Quintavius Quire,0.5865815346784725
+Fabio Medina,Hope Summers,0.7331628820180386
+Fabio Medina,Joshua Foley,0.8596012246315162
+Fabio Medina,Five,0.8577945308084903
+Fabio Medina,Proteus (Kevin MacTaggert),0.8398280410862103
+Fabio Medina,Eva Bell,0.8764582121615573
+Quintavius Quire,X-Force (Strike Team),0.6042148280787688
+Quintavius Quire,Neena Thurman,0.5865815346784725
+Marauders (Pryde),Shadowcat (Kitty Pryde),0.61265384682109
+Marauders (Pryde),Iceman (Bobby Drake),0.6224732712402705
+Marauders (Pryde),Hellfire Club,0.7079007311302542
+Marauders (Pryde),Pyro,0.7021759083410898
+Marauders (Pryde),Lucas Bishop (Earth-1191),0.7810795391878966
+Marauders (Pryde),Lockheed,0.673800599352824
+New Mutants,Magik (Illyana Rasputina),0.6091436934254447
+New Mutants,Mirage (Danielle Moonstar),0.8526230850225011
+New Mutants,Karma (Xi'an Coy Manh),0.7923695734165341
+New Mutants,Wolfsbane (Rahne Sinclair),0.743690213899592
+New Mutants,Warpath (James Proudstar),0.5268353008644255
+New Mutants,Natashia Repina,0.662126188624344
+New Mutants,Jonothon Starsmore,0.5073269153840125
+New Mutants,Carl Aalston,0.5607055816705986
+New Mutants,Lost Club,0.5888871690656025
+New Mutants,Mondo,0.5334330310308709
+New Mutants,Martha Johansson,0.56276365946345
+Joshua Foley,Hope Summers,0.8308684831941449
+Joshua Foley,Fabio Medina,0.8596012246315162
+Joshua Foley,Five,0.8864718952868496
+Joshua Foley,Proteus (Kevin MacTaggert),0.8712532869523208
+Joshua Foley,Eva Bell,0.9084048680624808
+Hellfire Club,Marauders (Pryde),0.7079007311302542
+Hellfire Club,Lucas Bishop (Earth-1191),0.6615105575773224
+Hellfire Club,Lockheed,0.5979109527331711
+Hellfire Club,Christian Frost,0.5893991326553487
+Hellfire Club,Shinobi Shaw,0.5567546395401903
+Five,Hope Summers,0.8280972845872565
+Five,Fabio Medina,0.8577945308084903
+Five,Joshua Foley,0.8864718952868496
+Five,Proteus (Kevin MacTaggert),0.8660486270572547
+Five,Eva Bell,0.9039398033911565
+Pyro,Iceman (Bobby Drake),0.6390059165570198
+Pyro,Marauders (Pryde),0.7021759083410898
+Pyro,Lucas Bishop (Earth-1191),0.5798840590383414
+Pyro,Lockheed,0.5205209912228732
+Proteus (Kevin MacTaggert),Hope Summers,0.8116485622397057
+Proteus (Kevin MacTaggert),Fabio Medina,0.8398280410862103
+Proteus (Kevin MacTaggert),Joshua Foley,0.8712532869523208
+Proteus (Kevin MacTaggert),Five,0.8660486270572547
+Proteus (Kevin MacTaggert),Eva Bell,0.88770894274485
+Eva Bell,Hope Summers,0.7775734203936351
+Eva Bell,Fabio Medina,0.8764582121615573
+Eva Bell,Joshua Foley,0.9084048680624808
+Eva Bell,Five,0.9039398033911565
+Eva Bell,Proteus (Kevin MacTaggert),0.88770894274485
+Lucas Bishop (Earth-1191),Marauders (Pryde),0.7810795391878966
+Lucas Bishop (Earth-1191),Hellfire Club,0.6615105575773224
+Lucas Bishop (Earth-1191),Pyro,0.5798840590383414
+Lucas Bishop (Earth-1191),Lockheed,0.5681588222895959
+Lucas Bishop (Earth-1191),Homines Verendi,0.5110174716947963
+Excalibur,Jubilee (Jubilation Lee),0.740117576652866
+Excalibur,Psylocke (Betsy Braddock),0.6353641905641368
+Excalibur,Gambit (Remy LeBeau),0.6597545083276182
+Excalibur,Rogue (Anna Marie),0.6208013070915029
+Excalibur,Rictor (Julio Richter),0.7903952042788772
+Excalibur,Captain Britain (Brian Braddock),0.5243243182739545
+Excalibur,Meggan Puceanu,0.6692264340867141
+Excalibur,Monarch (James Braddock Jr.),0.5594548931787804
+Phoebe Cuckoo,Stepford Cuckoos,0.7530215872477276
+Phoebe Cuckoo,Irma Cuckoo,0.8381180229028137
+Phoebe Cuckoo,Esme Cuckoo,0.6320794100307043
+Phoebe Cuckoo,Sophie Cuckoo,0.6921795582241217
+Phoebe Cuckoo,Celeste Cuckoo,0.7944790582174305
+Rachel Summers,X-Factor Investigations,0.5268773279683691
+Rachel Summers,Amazing Baby,0.5356494515150719
+Mirage (Danielle Moonstar),Magik (Illyana Rasputina),0.6689819521891801
+Mirage (Danielle Moonstar),New Mutants,0.8526230850225011
+Mirage (Danielle Moonstar),Karma (Xi'an Coy Manh),0.8557305870859201
+Mirage (Danielle Moonstar),Wolfsbane (Rahne Sinclair),0.8476274417716831
+Mirage (Danielle Moonstar),Warpath (James Proudstar),0.616037492910337
+Mirage (Danielle Moonstar),Natashia Repina,0.7135355232600781
+Mirage (Danielle Moonstar),Amahl Farouk,0.5240895549445327
+Mirage (Danielle Moonstar),Jonothon Starsmore,0.5485513376597426
+Mirage (Danielle Moonstar),Carl Aalston,0.6051574046076549
+Mirage (Danielle Moonstar),Lost Club,0.6346100207777262
+Mirage (Danielle Moonstar),Mondo,0.5758029941412888
+Mirage (Danielle Moonstar),Martha Johansson,0.6064582086101857
+Stepford Cuckoos,Phoebe Cuckoo,0.7530215872477276
+Stepford Cuckoos,Irma Cuckoo,0.8535907843872583
+Stepford Cuckoos,Esme Cuckoo,0.7345443413006701
+Stepford Cuckoos,Sophie Cuckoo,0.7971639963328925
+Stepford Cuckoos,Celeste Cuckoo,0.8091486095819312
+X-Men,Laura Kinney,0.5397809297349536
+X-Men,Everett Thomas,0.6460283678600987
+X-Men,Polaris (Lorna Dane),0.5067138124466009
+X-Men,Sunfire (Shiro Yoshida),0.5499391738868529
+X-Men,Captain America (Steve Rogers),0.5339414905208912
+Megan Gwynn,Kuan-Yin Xorn,0.5432830355742396
+Megan Gwynn,James Bradley,0.5180870311463355
+Megan Gwynn,Legion (David Haller),0.5166593490798488
+Megan Gwynn,Lost (Marinette),0.5466347261284482
+Arakko,Isca,0.5784493645875253
+Arakko,Great Ring of Arakko,0.6199246434097289
+Karma (Xi'an Coy Manh),Magik (Illyana Rasputina),0.5900300218800768
+Karma (Xi'an Coy Manh),New Mutants,0.7923695734165341
+Karma (Xi'an Coy Manh),Mirage (Danielle Moonstar),0.8557305870859201
+Karma (Xi'an Coy Manh),Gabrielle Kinney,0.5285879402064606
+Karma (Xi'an Coy Manh),Wolfsbane (Rahne Sinclair),0.8553407213430217
+Karma (Xi'an Coy Manh),Warpath (James Proudstar),0.6054083246654798
+Karma (Xi'an Coy Manh),Natashia Repina,0.759618325952447
+Karma (Xi'an Coy Manh),Amahl Farouk,0.5599995083583389
+Karma (Xi'an Coy Manh),Jonothon Starsmore,0.58540291238682
+Karma (Xi'an Coy Manh),Carl Aalston,0.644952776592137
+Karma (Xi'an Coy Manh),Lost Club,0.6755955182347878
+Karma (Xi'an Coy Manh),Mondo,0.6137302334811093
+Karma (Xi'an Coy Manh),Martha Johansson,0.6456255563560426
+Opal Luna Saturnyne (Earth-9),Psylocke (Betsy Braddock),0.5447363606051494
+Opal Luna Saturnyne (Earth-9),Shogo Lee,0.6221580111211861
+Opal Luna Saturnyne (Earth-9),Captain Britain (Brian Braddock),0.653576073717192
+Opal Luna Saturnyne (Earth-9),Bei,0.526462951552267
+Opal Luna Saturnyne (Earth-9),Death (First Horsemen),0.5090389563347231
+Opal Luna Saturnyne (Earth-9),Swordbearers of Krakoa,0.552599708368961
+Opal Luna Saturnyne (Earth-9),Swordbearers of Arakko,0.560909505210731
+Opal Luna Saturnyne (Earth-9),Fury (Earth-238),0.5609005850221176
+Shogo Lee,Jubilee (Jubilation Lee),0.6296437329689638
+Shogo Lee,Psylocke (Betsy Braddock),0.6280821471262934
+Shogo Lee,Gambit (Remy LeBeau),0.610908180370994
+Shogo Lee,Rictor (Julio Richter),0.556272139676409
+Shogo Lee,Opal Luna Saturnyne (Earth-9),0.6221580111211861
+Shogo Lee,Captain Britain (Brian Braddock),0.6200186820961144
+Shogo Lee,Meggan Puceanu,0.5454939625589996
+Shogo Lee,Monarch (James Braddock Jr.),0.5197910906491962
+Shogo Lee,Morgan Le Fay,0.5149382340488815
+Everett Thomas,Laura Kinney,0.5881192472231057
+Everett Thomas,X-Men,0.6460283678600987
+Everett Thomas,Polaris (Lorna Dane),0.5339191734827925
+Everett Thomas,Sunfire (Shiro Yoshida),0.5621404975958423
+Sentient World Observation and Response Department,Joanna Cargill,0.6379634310818476
+Sentient World Observation and Response Department,Abigail Brand,0.7169610353449791
+Sentient World Observation and Response Department,Eden Fesi,0.7531144390487436
+Sentient World Observation and Response Department,Takeshi Matsuya,0.690260204934639
+Akihiro,Jeanne-Marie Beaubier,0.5945951728634038
+Victor Borkowski,Warpath (James Proudstar),0.5667847959112811
+Victor Borkowski,Natashia Repina,0.6069561120255185
+Victor Borkowski,Amahl Farouk,0.5735575035909474
+Victor Borkowski,Carl Aalston,0.6599538422716902
+Victor Borkowski,Lost Club,0.691034072884717
+Victor Borkowski,Martha Johansson,0.6603792442745733
+Orchis,Alia Gregor,0.590386871133603
+Orchis,Karima Shapandar,0.5974589658132101
+Orchis,Killian Devo,0.5957381644054807
+Captain Britain (Brian Braddock),Jubilee (Jubilation Lee),0.5535488288006565
+Captain Britain (Brian Braddock),Psylocke (Betsy Braddock),0.6354275560245722
+Captain Britain (Brian Braddock),Rictor (Julio Richter),0.5228453167381908
+Captain Britain (Brian Braddock),Excalibur,0.5243243182739545
+Captain Britain (Brian Braddock),Opal Luna Saturnyne (Earth-9),0.653576073717192
+Captain Britain (Brian Braddock),Shogo Lee,0.6200186820961144
+Captain Britain (Brian Braddock),Meggan Puceanu,0.550249370606168
+Captain Britain (Brian Braddock),Monarch (James Braddock Jr.),0.6781943637348894
+Captain Britain (Brian Braddock),Morgan Le Fay,0.5401000342313075
+Captain Britain (Brian Braddock),Elizabeth Braddock (Earth-904),0.5078545208692083
+Polaris (Lorna Dane),X-Men,0.5067138124466009
+Polaris (Lorna Dane),Everett Thomas,0.5339191734827925
+Gabrielle Kinney,Karma (Xi'an Coy Manh),0.5285879402064606
+Gabrielle Kinney,Wolfsbane (Rahne Sinclair),0.5831912892670037
+Gabrielle Kinney,Warpath (James Proudstar),0.613014603315037
+Gabrielle Kinney,Natashia Repina,0.5945615807222286
+Gabrielle Kinney,Amahl Farouk,0.6811810811922037
+Gabrielle Kinney,Carl Aalston,0.6459593253150497
+Gabrielle Kinney,Lost Club,0.676115812369016
+Gabrielle Kinney,Martha Johansson,0.7101157598054658
+Irma Cuckoo,Phoebe Cuckoo,0.8381180229028137
+Irma Cuckoo,Stepford Cuckoos,0.8535907843872583
+Irma Cuckoo,Esme Cuckoo,0.7058588021074511
+Irma Cuckoo,Sophie Cuckoo,0.7782027844808111
+Irma Cuckoo,Celeste Cuckoo,0.94798924834241
+Scalphunter,Kwannon,0.6487915315263545
+Scalphunter,Havok (Alexander Summers),0.653988130579483
+Scalphunter,Nanny,0.8970099667774094
+Scalphunter,Kyle Gibney,0.94069866469223
+Scalphunter,Hellions (Essex),0.8088513796952733
+Scalphunter,Empath (Manuel de la Rocha),0.8413564167266119
+Scalphunter,Orphan-Maker (Peter),0.875430630439814
+Monet St. Croix,Multiple Man (James Madrox),0.507971482675529
+Monet St. Croix,X-Corporation,0.5731346184244283
+Lockheed,Shadowcat (Kitty Pryde),0.5018747829126372
+Lockheed,Marauders (Pryde),0.673800599352824
+Lockheed,Hellfire Club,0.5979109527331711
+Lockheed,Pyro,0.5205209912228732
+Lockheed,Lucas Bishop (Earth-1191),0.5681588222895959
+Lockheed,Shinobi Shaw,0.5431599539449973
+Esme Cuckoo,Phoebe Cuckoo,0.6320794100307043
+Esme Cuckoo,Stepford Cuckoos,0.7345443413006701
+Esme Cuckoo,Irma Cuckoo,0.7058588021074511
+Esme Cuckoo,Sophie Cuckoo,0.8695510196213458
+Esme Cuckoo,Celeste Cuckoo,0.6936419590558734
+Joanna Cargill,Sentient World Observation and Response Department,0.6379634310818476
+Joanna Cargill,Eden Fesi,0.6946780769110427
+Joanna Cargill,Takeshi Matsuya,0.6761158123690155
+Joanna Cargill,Marshall Stone III,0.6022274590994756
+Wolfsbane (Rahne Sinclair),Magik (Illyana Rasputina),0.552471133837904
+Wolfsbane (Rahne Sinclair),New Mutants,0.743690213899592
+Wolfsbane (Rahne Sinclair),Mirage (Danielle Moonstar),0.8476274417716831
+Wolfsbane (Rahne Sinclair),Karma (Xi'an Coy Manh),0.8553407213430217
+Wolfsbane (Rahne Sinclair),Gabrielle Kinney,0.5831912892670037
+Wolfsbane (Rahne Sinclair),Warpath (James Proudstar),0.6082573161243786
+Wolfsbane (Rahne Sinclair),Natashia Repina,0.769987544700085
+Wolfsbane (Rahne Sinclair),Amahl Farouk,0.6144196963287162
+Wolfsbane (Rahne Sinclair),Jonothon Starsmore,0.6413825499527763
+Wolfsbane (Rahne Sinclair),Carl Aalston,0.6413825499527763
+Wolfsbane (Rahne Sinclair),Lost Club,0.6714827586976778
+Wolfsbane (Rahne Sinclair),Mondo,0.6048076609410215
+Wolfsbane (Rahne Sinclair),Martha Johansson,0.7054125788121225
+Meggan Puceanu,Jubilee (Jubilation Lee),0.6271764763651414
+Meggan Puceanu,Psylocke (Betsy Braddock),0.5896338120718825
+Meggan Puceanu,Gambit (Remy LeBeau),0.5938041937184588
+Meggan Puceanu,Rictor (Julio Richter),0.6160115587324874
+Meggan Puceanu,Excalibur,0.6692264340867141
+Meggan Puceanu,Shogo Lee,0.5454939625589996
+Meggan Puceanu,Captain Britain (Brian Braddock),0.550249370606168
+Meggan Puceanu,Monarch (James Braddock Jr.),0.5504480600813237
+Nanny,Kwannon,0.6142383047582481
+Nanny,Havok (Alexander Summers),0.6944141167169982
+Nanny,Scalphunter,0.8970099667774094
+Nanny,Kyle Gibney,0.94069866469223
+Nanny,Hellions (Essex),0.8641666075147166
+Nanny,Empath (Manuel de la Rocha),0.8413564167266118
+Nanny,Orphan-Maker (Peter),0.8754306304398138
+Sophie Cuckoo,Phoebe Cuckoo,0.6921795582241217
+Sophie Cuckoo,Stepford Cuckoos,0.7971639963328925
+Sophie Cuckoo,Irma Cuckoo,0.7782027844808111
+Sophie Cuckoo,Esme Cuckoo,0.8695510196213458
+Sophie Cuckoo,Celeste Cuckoo,0.7132881556896412
+Hisako Ichiki,Boom-Boom (Tabitha Smith),0.6725576086556906
+Sunfire (Shiro Yoshida),X-Men,0.5499391738868529
+Sunfire (Shiro Yoshida),Everett Thomas,0.5621404975958423
+Monarch (James Braddock Jr.),Psylocke (Betsy Braddock),0.5363007659052835
+Monarch (James Braddock Jr.),Rictor (Julio Richter),0.5547764209994002
+Monarch (James Braddock Jr.),Excalibur,0.5594548931787804
+Monarch (James Braddock Jr.),Shogo Lee,0.5197910906491962
+Monarch (James Braddock Jr.),Captain Britain (Brian Braddock),0.6781943637348894
+Monarch (James Braddock Jr.),Meggan Puceanu,0.5504480600813237
+Kyle Gibney,Kwannon,0.6448670640186588
+Kyle Gibney,Havok (Alexander Summers),0.6899161818612671
+Kyle Gibney,Scalphunter,0.94069866469223
+Kyle Gibney,Nanny,0.94069866469223
+Kyle Gibney,Hellions (Essex),0.8484544597872781
+Kyle Gibney,Empath (Manuel de la Rocha),0.8820934086378709
+Kyle Gibney,Orphan-Maker (Peter),0.9174594211393123
+Christian Frost,Hellfire Club,0.5893991326553487
+Christian Frost,Callisto,0.5202139169192128
+Christian Frost,Shinobi Shaw,0.7331208916824672
+Celeste Cuckoo,Phoebe Cuckoo,0.7944790582174305
+Celeste Cuckoo,Stepford Cuckoos,0.8091486095819312
+Celeste Cuckoo,Irma Cuckoo,0.94798924834241
+Celeste Cuckoo,Esme Cuckoo,0.6936419590558734
+Celeste Cuckoo,Sophie Cuckoo,0.7132881556896412
+Isca,Arakko,0.5784493645875253
+Isca,War (First Horsemen),0.5200529861726588
+Isca,Genesis,0.6481100961993155
+Isca,Great Ring of Arakko,0.6418741332250947
+Isca,White Sword,0.6577994347670403
+Hellions (Essex),Kwannon,0.589643875127351
+Hellions (Essex),Havok (Alexander Summers),0.6314139419662348
+Hellions (Essex),Scalphunter,0.8088513796952733
+Hellions (Essex),Nanny,0.8641666075147166
+Hellions (Essex),Kyle Gibney,0.8484544597872781
+Hellions (Essex),Empath (Manuel de la Rocha),0.7918447687771788
+Hellions (Essex),Orphan-Maker (Peter),0.8246711217620172
+Bei,Opal Luna Saturnyne (Earth-9),0.526462951552267
+Bei,Fury (Earth-238),0.6619300366090916
+Bei,James Jaspers,0.5734237570501627
+Robert Herman,Boom-Boom (Tabitha Smith),0.5207319470183058
+Abigail Brand,Sentient World Observation and Response Department,0.7169610353449791
+Abigail Brand,Eden Fesi,0.5583369288806262
+Abigail Brand,Takeshi Matsuya,0.5104826713511516
+War (First Horsemen),Isca,0.5200529861726588
+War (First Horsemen),Death (First Horsemen),0.7981294090961641
+War (First Horsemen),Swordbearers of Krakoa,0.5631235848237501
+War (First Horsemen),Pestilence (First Horsemen),0.8083964483556432
+War (First Horsemen),Swordbearers of Arakko,0.6782641312570105
+War (First Horsemen),Horsemen of Apocalypse,0.8424166056181741
+War (First Horsemen),Famine (First Horsemen),0.7713925953872631
+War (First Horsemen),Genesis,0.7223384916502223
+War (First Horsemen),Summoner (Arakko),0.6872700029737276
+War (First Horsemen),White Sword,0.7516167935947474
+Warpath (James Proudstar),New Mutants,0.5268353008644255
+Warpath (James Proudstar),Mirage (Danielle Moonstar),0.616037492910337
+Warpath (James Proudstar),Karma (Xi'an Coy Manh),0.6054083246654798
+Warpath (James Proudstar),Victor Borkowski,0.5667847959112811
+Warpath (James Proudstar),Gabrielle Kinney,0.613014603315037
+Warpath (James Proudstar),Wolfsbane (Rahne Sinclair),0.6082573161243786
+Warpath (James Proudstar),Natashia Repina,0.6090007668122183
+Warpath (James Proudstar),Amahl Farouk,0.633466847715367
+Warpath (James Proudstar),Carl Aalston,0.6605777227801741
+Warpath (James Proudstar),Lost Club,0.6908697229695029
+Warpath (James Proudstar),Martha Johansson,0.7250456558874452
+Empath (Manuel de la Rocha),Kwannon,0.5748511470631824
+Empath (Manuel de la Rocha),Havok (Alexander Summers),0.6600005357827927
+Empath (Manuel de la Rocha),Scalphunter,0.8413564167266119
+Empath (Manuel de la Rocha),Nanny,0.8413564167266118
+Empath (Manuel de la Rocha),Kyle Gibney,0.8820934086378709
+Empath (Manuel de la Rocha),Hellions (Essex),0.7918447687771788
+Empath (Manuel de la Rocha),Orphan-Maker (Peter),0.8577271540209614
+Callisto,Christian Frost,0.5202139169192128
+Callisto,Masque,0.6268889499251818
+Sunspot (Roberto da Costa),Sybil (Oracle),0.6792854954312548
+Sunspot (Roberto da Costa),Isabel Kane,0.540385140148207
+Orphan-Maker (Peter),Kwannon,0.6015819273496108
+Orphan-Maker (Peter),Havok (Alexander Summers),0.6433015345143845
+Orphan-Maker (Peter),Scalphunter,0.875430630439814
+Orphan-Maker (Peter),Nanny,0.8754306304398138
+Orphan-Maker (Peter),Kyle Gibney,0.9174594211393123
+Orphan-Maker (Peter),Hellions (Essex),0.8246711217620172
+Orphan-Maker (Peter),Empath (Manuel de la Rocha),0.8577271540209614
+Eden Fesi,Sentient World Observation and Response Department,0.7531144390487436
+Eden Fesi,Joanna Cargill,0.6946780769110427
+Eden Fesi,Abigail Brand,0.5583369288806262
+Eden Fesi,Takeshi Matsuya,0.6388663636330485
+Eden Fesi,Marshall Stone III,0.5116098171940955
+Multiple Man (James Madrox),Monet St. Croix,0.507971482675529
+Multiple Man (James Madrox),X-Corporation,0.6530546099930237
+Captain America (Steve Rogers),X-Men,0.5339414905208912
+Captain America (Steve Rogers),X-Factor Investigations,0.583382905713656
+Captain America (Steve Rogers),Avengers,0.8769787920875628
+Captain America (Steve Rogers),Anthony Stark,0.7753035438900595
+Captain America (Steve Rogers),The Thing,0.6972161568662745
+Captain America (Steve Rogers),Kyle Jinadu,0.5550314572756794
+Captain America (Steve Rogers),T'Challa,0.5096878718306318
+Death (First Horsemen),Opal Luna Saturnyne (Earth-9),0.5090389563347231
+Death (First Horsemen),War (First Horsemen),0.7981294090961641
+Death (First Horsemen),Pestilence (First Horsemen),0.6920514739597865
+Death (First Horsemen),Horsemen of Apocalypse,0.7216184940780738
+Death (First Horsemen),Famine (First Horsemen),0.7223559453064089
+Death (First Horsemen),Genesis,0.6075331407596668
+Death (First Horsemen),James Jaspers,0.5283547065947622
+Death (First Horsemen),Summoner (Arakko),0.619936866883691
+Death (First Horsemen),White Sword,0.6197109559651758
+Natashia Repina,New Mutants,0.662126188624344
+Natashia Repina,Mirage (Danielle Moonstar),0.7135355232600781
+Natashia Repina,Karma (Xi'an Coy Manh),0.759618325952447
+Natashia Repina,Victor Borkowski,0.6069561120255185
+Natashia Repina,Gabrielle Kinney,0.5945615807222286
+Natashia Repina,Wolfsbane (Rahne Sinclair),0.769987544700085
+Natashia Repina,Warpath (James Proudstar),0.6090007668122183
+Natashia Repina,Amahl Farouk,0.7458982832522058
+Natashia Repina,Carl Aalston,0.8520476506695581
+Natashia Repina,Lost Club,0.8893881244738178
+Natashia Repina,Martha Johansson,0.8499341502148808
+Boom-Boom (Tabitha Smith),Hisako Ichiki,0.6725576086556906
+Boom-Boom (Tabitha Smith),Robert Herman,0.5207319470183058
+Boom-Boom (Tabitha Smith),Magma (Amara Aquilla),0.5581850357796708
+Swordbearers of Krakoa,Opal Luna Saturnyne (Earth-9),0.552599708368961
+Swordbearers of Krakoa,War (First Horsemen),0.5631235848237501
+Swordbearers of Krakoa,Swordbearers of Arakko,0.8024242855157895
+Swordbearers of Krakoa,Genesis,0.5841254425698653
+Swordbearers of Krakoa,White Sword,0.5542390088529627
+XENO,Sage,0.5116229725672665
+XENO,Man with the Peacock Tattoo,0.8277178090460383
+Alani Ryan,Shen Xorn,0.5223275494009662
+Alani Ryan,Kuan-Yin Xorn,0.5218408452416723
+Alani Ryan,James Bradley,0.5513463361764579
+Alani Ryan,Legion (David Haller),0.5588217506314815
+Alani Ryan,Lost (Marinette),0.5860614417175158
+Jean-Paul Beaubier,X-Factor Investigations,0.6430953798103282
+Jean-Paul Beaubier,Trevor Hawkins,0.6587192553355282
+Jean-Paul Beaubier,David Alleyne,0.6253724255770945
+Jean-Paul Beaubier,Kyle Jinadu,0.6694295287063093
+Amahl Farouk,Mirage (Danielle Moonstar),0.5240895549445327
+Amahl Farouk,Karma (Xi'an Coy Manh),0.5599995083583389
+Amahl Farouk,Victor Borkowski,0.5735575035909474
+Amahl Farouk,Gabrielle Kinney,0.6811810811922037
+Amahl Farouk,Wolfsbane (Rahne Sinclair),0.6144196963287162
+Amahl Farouk,Warpath (James Proudstar),0.633466847715367
+Amahl Farouk,Natashia Repina,0.7458982832522058
+Amahl Farouk,Carl Aalston,0.8060228143270453
+Amahl Farouk,Lost Club,0.8414232734898378
+Amahl Farouk,Martha Johansson,0.8814300746774201
+Pestilence (First Horsemen),War (First Horsemen),0.8083964483556432
+Pestilence (First Horsemen),Death (First Horsemen),0.6920514739597865
+Pestilence (First Horsemen),Horsemen of Apocalypse,0.959477007368758
+Pestilence (First Horsemen),Famine (First Horsemen),0.9602874917780355
+Pestilence (First Horsemen),Genesis,0.6622599831451612
+Pestilence (First Horsemen),Summoner (Arakko),0.5104217004239368
+Pestilence (First Horsemen),White Sword,0.5919539128922269
+X-Factor Investigations,Rachel Summers,0.5268773279683691
+X-Factor Investigations,Captain America (Steve Rogers),0.583382905713656
+X-Factor Investigations,Jean-Paul Beaubier,0.6430953798103282
+X-Factor Investigations,Avengers,0.6655541734387774
+X-Factor Investigations,Anthony Stark,0.695932741410605
+X-Factor Investigations,Trevor Hawkins,0.636390827764528
+X-Factor Investigations,David Alleyne,0.7451205607228939
+X-Factor Investigations,Kyle Jinadu,0.7200037235782939
+Jonothon Starsmore,New Mutants,0.5073269153840125
+Jonothon Starsmore,Mirage (Danielle Moonstar),0.5485513376597426
+Jonothon Starsmore,Karma (Xi'an Coy Manh),0.58540291238682
+Jonothon Starsmore,Wolfsbane (Rahne Sinclair),0.6413825499527763
+Jonothon Starsmore,Mondo,0.7913288920413653
+Carl Aalston,New Mutants,0.5607055816705986
+Carl Aalston,Mirage (Danielle Moonstar),0.6051574046076549
+Carl Aalston,Karma (Xi'an Coy Manh),0.644952776592137
+Carl Aalston,Victor Borkowski,0.6599538422716902
+Carl Aalston,Gabrielle Kinney,0.6459593253150497
+Carl Aalston,Wolfsbane (Rahne Sinclair),0.6413825499527763
+Carl Aalston,Warpath (James Proudstar),0.6605777227801741
+Carl Aalston,Natashia Repina,0.8520476506695581
+Carl Aalston,Amahl Farouk,0.8060228143270453
+Carl Aalston,Lost Club,0.9589680422915872
+Carl Aalston,Martha Johansson,0.9164274467803765
+Avengers,Captain America (Steve Rogers),0.8769787920875628
+Avengers,X-Factor Investigations,0.6655541734387774
+Avengers,Anthony Stark,0.869934532664262
+Avengers,The Thing,0.5856280644534153
+Avengers,Doctor Strange,0.532836506265856
+Avengers,Kyle Jinadu,0.6295727629374219
+Avengers,T'Challa,0.5704500621467316
+Avengers,Mister Fantastic,0.5046742369092877
+Wilhelmina Kensington,Kade Kilgore,0.9589680422915872
+Wilhelmina Kensington,Homines Verendi,0.9638525880845606
+Wilhelmina Kensington,Manuel Enduque,0.872153648973497
+Wilhelmina Kensington,Chen Zhao,0.7476707963185064
+Dazzler (Alison Blaire),Lost (Marinette),0.5300002961505142
+Kallark,Imperial Guard,0.9979961792519125
+Kallark,Xandra Neramani,0.8343790556775389
+Kallark,Deathbird,0.8281864034615073
+Kallark,Sybil (Oracle),0.6749871881049097
+Kallark,Isabel Kane,0.6117767516515031
+Tomi Shishido,White Sword,0.5791996103348115
+Imperial Guard,Kallark,0.9979961792519125
+Imperial Guard,Xandra Neramani,0.841861369493964
+Imperial Guard,Deathbird,0.8367037215535935
+Imperial Guard,Sybil (Oracle),0.6842585760601568
+Imperial Guard,Isabel Kane,0.6128086451667281
+Jeanne-Marie Beaubier,Akihiro,0.5945951728634038
+Magma (Amara Aquilla),Boom-Boom (Tabitha Smith),0.5581850357796708
+Kade Kilgore,Wilhelmina Kensington,0.9589680422915872
+Kade Kilgore,Homines Verendi,0.9966181125426079
+Kade Kilgore,Manuel Enduque,0.9094710256343512
+Kade Kilgore,Chen Zhao,0.7700426284662439
+Shinobi Shaw,Hellfire Club,0.5567546395401903
+Shinobi Shaw,Lockheed,0.5431599539449973
+Shinobi Shaw,Christian Frost,0.7331208916824672
+Homines Verendi,Lucas Bishop (Earth-1191),0.5110174716947963
+Homines Verendi,Wilhelmina Kensington,0.9638525880845606
+Homines Verendi,Kade Kilgore,0.9966181125426079
+Homines Verendi,Manuel Enduque,0.9063952969798988
+Homines Verendi,Chen Zhao,0.7681082465889371
+Swordbearers of Arakko,Opal Luna Saturnyne (Earth-9),0.560909505210731
+Swordbearers of Arakko,War (First Horsemen),0.6782641312570105
+Swordbearers of Arakko,Swordbearers of Krakoa,0.8024242855157895
+Swordbearers of Arakko,Genesis,0.6674277846226491
+Swordbearers of Arakko,White Sword,0.6313447407240605
+Anthony Stark,Captain America (Steve Rogers),0.7753035438900595
+Anthony Stark,X-Factor Investigations,0.695932741410605
+Anthony Stark,Avengers,0.869934532664262
+Anthony Stark,The Thing,0.5384407545949422
+Anthony Stark,Doctor Strange,0.5586793095033489
+Anthony Stark,Kyle Jinadu,0.6588531599008884
+Takeshi Matsuya,Sentient World Observation and Response Department,0.690260204934639
+Takeshi Matsuya,Joanna Cargill,0.6761158123690155
+Takeshi Matsuya,Abigail Brand,0.5104826713511516
+Takeshi Matsuya,Eden Fesi,0.6388663636330485
+Arkady Rossovich,Mikhail Rasputin,0.5413238391030896
+Horsemen of Apocalypse,War (First Horsemen),0.8424166056181741
+Horsemen of Apocalypse,Death (First Horsemen),0.7216184940780738
+Horsemen of Apocalypse,Pestilence (First Horsemen),0.959477007368758
+Horsemen of Apocalypse,Famine (First Horsemen),0.9150974094450708
+Horsemen of Apocalypse,Genesis,0.6908335808198498
+Horsemen of Apocalypse,Summoner (Arakko),0.532845795713376
+Horsemen of Apocalypse,White Sword,0.6173765414612266
+Trevor Hawkins,Jean-Paul Beaubier,0.6587192553355282
+Trevor Hawkins,X-Factor Investigations,0.636390827764528
+Trevor Hawkins,David Alleyne,0.786233284244375
+Trevor Hawkins,Kyle Jinadu,0.5541084931421615
+Lost Club,New Mutants,0.5888871690656025
+Lost Club,Mirage (Danielle Moonstar),0.6346100207777262
+Lost Club,Karma (Xi'an Coy Manh),0.6755955182347878
+Lost Club,Victor Borkowski,0.691034072884717
+Lost Club,Gabrielle Kinney,0.676115812369016
+Lost Club,Wolfsbane (Rahne Sinclair),0.6714827586976778
+Lost Club,Warpath (James Proudstar),0.6908697229695029
+Lost Club,Natashia Repina,0.8893881244738178
+Lost Club,Amahl Farouk,0.8414232734898378
+Lost Club,Carl Aalston,0.9589680422915872
+Lost Club,Martha Johansson,0.9556391937633754
+Mondo,New Mutants,0.5334330310308709
+Mondo,Mirage (Danielle Moonstar),0.5758029941412888
+Mondo,Karma (Xi'an Coy Manh),0.6137302334811093
+Mondo,Wolfsbane (Rahne Sinclair),0.6048076609410215
+Mondo,Jonothon Starsmore,0.7913288920413653
+Fabian Cortez,Shen Xorn,0.5095389974645091
+Fabian Cortez,Kuan-Yin Xorn,0.5000238204003147
+Fabian Cortez,James Bradley,0.5289352222293604
+Fabian Cortez,Legion (David Haller),0.5270182558938799
+Fabian Cortez,Lost (Marinette),0.5608761182531796
+Famine (First Horsemen),War (First Horsemen),0.7713925953872631
+Famine (First Horsemen),Death (First Horsemen),0.7223559453064089
+Famine (First Horsemen),Pestilence (First Horsemen),0.9602874917780355
+Famine (First Horsemen),Horsemen of Apocalypse,0.9150974094450708
+Famine (First Horsemen),Genesis,0.6908335808198491
+Famine (First Horsemen),Summoner (Arakko),0.5235123550014247
+Famine (First Horsemen),White Sword,0.6173765414612263
+Fury (Earth-238),Psylocke (Betsy Braddock),0.5034380134444117
+Fury (Earth-238),Opal Luna Saturnyne (Earth-9),0.5609005850221176
+Fury (Earth-238),Bei,0.6619300366090916
+Fury (Earth-238),James Jaspers,0.8016711085523484
+Sooraya Qadir,Kuan-Yin Xorn,0.5255287037867077
+Sooraya Qadir,Legion (David Haller),0.553517441547694
+Sooraya Qadir,Lost (Marinette),0.5884555750583703
+Shen Xorn,Alani Ryan,0.5223275494009662
+Shen Xorn,Fabian Cortez,0.5095389974645091
+Shen Xorn,Kuan-Yin Xorn,0.9039875809642758
+Shen Xorn,James Bradley,0.8507000023949335
+Shen Xorn,Legion (David Haller),0.760573881127192
+Shen Xorn,Lost (Marinette),0.7961105439065772
+Xandra Neramani,Kallark,0.8343790556775389
+Xandra Neramani,Imperial Guard,0.841861369493964
+Xandra Neramani,Deathbird,0.8264259379936952
+Xandra Neramani,Sybil (Oracle),0.5304642323551617
+Kuan-Yin Xorn,Megan Gwynn,0.5432830355742396
+Kuan-Yin Xorn,Alani Ryan,0.5218408452416723
+Kuan-Yin Xorn,Fabian Cortez,0.5000238204003147
+Kuan-Yin Xorn,Sooraya Qadir,0.5255287037867077
+Kuan-Yin Xorn,Shen Xorn,0.9039875809642758
+Kuan-Yin Xorn,James Bradley,0.8601619763513885
+Kuan-Yin Xorn,Legion (David Haller),0.8591269100541126
+Kuan-Yin Xorn,Lost (Marinette),0.899912516076724
+David Alleyne,Jean-Paul Beaubier,0.6253724255770945
+David Alleyne,X-Factor Investigations,0.7451205607228939
+David Alleyne,Trevor Hawkins,0.786233284244375
+Genesis,Isca,0.6481100961993155
+Genesis,War (First Horsemen),0.7223384916502223
+Genesis,Death (First Horsemen),0.6075331407596668
+Genesis,Swordbearers of Krakoa,0.5841254425698653
+Genesis,Pestilence (First Horsemen),0.6622599831451612
+Genesis,Swordbearers of Arakko,0.6674277846226491
+Genesis,Horsemen of Apocalypse,0.6908335808198498
+Genesis,Famine (First Horsemen),0.6908335808198491
+Genesis,Summoner (Arakko),0.5956994124601941
+Genesis,White Sword,0.8399770689736666
+Martha Johansson,New Mutants,0.56276365946345
+Martha Johansson,Mirage (Danielle Moonstar),0.6064582086101857
+Martha Johansson,Karma (Xi'an Coy Manh),0.6456255563560426
+Martha Johansson,Victor Borkowski,0.6603792442745733
+Martha Johansson,Gabrielle Kinney,0.7101157598054658
+Martha Johansson,Wolfsbane (Rahne Sinclair),0.7054125788121225
+Martha Johansson,Warpath (James Proudstar),0.7250456558874452
+Martha Johansson,Natashia Repina,0.8499341502148808
+Martha Johansson,Amahl Farouk,0.8814300746774201
+Martha Johansson,Carl Aalston,0.9164274467803765
+Martha Johansson,Lost Club,0.9556391937633754
+Deathbird,Kallark,0.8281864034615073
+Deathbird,Imperial Guard,0.8367037215535935
+Deathbird,Xandra Neramani,0.8264259379936952
+Deathbird,Sybil (Oracle),0.5276577090300315
+Deathbird,Isabel Kane,0.5061742114493794
+X-Corporation,Monet St. Croix,0.5731346184244283
+X-Corporation,Multiple Man (James Madrox),0.6530546099930237
+James Jaspers,Bei,0.5734237570501627
+James Jaspers,Death (First Horsemen),0.5283547065947622
+James Jaspers,Fury (Earth-238),0.8016711085523484
+Peter Wisdom,Psylocke (Betsy Braddock),0.5284752290316266
+Peter Wisdom,Gambit (Remy LeBeau),0.5319342658414795
+Peter Wisdom,Coven Akkaba,0.7531987238458147
+Peter Wisdom,Morgan Le Fay,0.5915669818541999
+Peter Wisdom,Reuben Brousseau,0.5951631329439472
+Summoner (Arakko),War (First Horsemen),0.6872700029737276
+Summoner (Arakko),Death (First Horsemen),0.619936866883691
+Summoner (Arakko),Pestilence (First Horsemen),0.5104217004239368
+Summoner (Arakko),Horsemen of Apocalypse,0.532845795713376
+Summoner (Arakko),Famine (First Horsemen),0.5235123550014247
+Summoner (Arakko),Genesis,0.5956994124601941
+Summoner (Arakko),White Sword,0.6035640178711218
+The Thing,Captain America (Steve Rogers),0.6972161568662745
+The Thing,Avengers,0.5856280644534153
+The Thing,Anthony Stark,0.5384407545949422
+The Thing,Doctor Strange,0.600079594868268
+The Thing,T'Challa,0.6608463784609981
+The Thing,Mister Fantastic,0.5769049930642396
+James Bradley,Megan Gwynn,0.5180870311463355
+James Bradley,Alani Ryan,0.5513463361764579
+James Bradley,Fabian Cortez,0.5289352222293604
+James Bradley,Shen Xorn,0.8507000023949335
+James Bradley,Kuan-Yin Xorn,0.8601619763513885
+James Bradley,Legion (David Haller),0.8000015151433448
+James Bradley,Lost (Marinette),0.8477655283960733
+Manuel Enduque,Wilhelmina Kensington,0.872153648973497
+Manuel Enduque,Kade Kilgore,0.9094710256343512
+Manuel Enduque,Homines Verendi,0.9063952969798988
+Manuel Enduque,Chen Zhao,0.7385100310294261
+Manuel Enduque,Masque,0.5104241742613524
+Legion (David Haller),Megan Gwynn,0.5166593490798488
+Legion (David Haller),Alani Ryan,0.5588217506314815
+Legion (David Haller),Fabian Cortez,0.5270182558938799
+Legion (David Haller),Sooraya Qadir,0.553517441547694
+Legion (David Haller),Shen Xorn,0.760573881127192
+Legion (David Haller),Kuan-Yin Xorn,0.8591269100541126
+Legion (David Haller),James Bradley,0.8000015151433448
+Legion (David Haller),Lost (Marinette),0.9449899814850248
+Great Ring of Arakko,Arakko,0.6199246434097289
+Great Ring of Arakko,Isca,0.6418741332250947
+White Sword,Isca,0.6577994347670403
+White Sword,War (First Horsemen),0.7516167935947474
+White Sword,Death (First Horsemen),0.6197109559651758
+White Sword,Swordbearers of Krakoa,0.5542390088529627
+White Sword,Pestilence (First Horsemen),0.5919539128922269
+White Sword,Tomi Shishido,0.5791996103348115
+White Sword,Swordbearers of Arakko,0.6313447407240605
+White Sword,Horsemen of Apocalypse,0.6173765414612266
+White Sword,Famine (First Horsemen),0.6173765414612263
+White Sword,Genesis,0.8399770689736666
+White Sword,Summoner (Arakko),0.6035640178711218
+Amazing Baby,Rachel Summers,0.5356494515150719
+Mikhail Rasputin,Arkady Rossovich,0.5413238391030896
+Chen Zhao,Wilhelmina Kensington,0.7476707963185064
+Chen Zhao,Kade Kilgore,0.7700426284662439
+Chen Zhao,Homines Verendi,0.7681082465889371
+Chen Zhao,Manuel Enduque,0.7385100310294261
+Masque,Callisto,0.6268889499251818
+Masque,Manuel Enduque,0.5104241742613524
+Delores Ramirez,Central Intelligence Agency,0.7035225922628117
+Man with the Peacock Tattoo,XENO,0.8277178090460383
+X-Factor,Cameron Hodge,0.8840916058579799
+X-Factor,Rusty Collins,0.8195133257128346
+X-Factor,Artie Maddicks,0.818287617972339
+Alia Gregor,Orchis,0.590386871133603
+Alia Gregor,Karima Shapandar,0.9842816602107592
+Alia Gregor,Killian Devo,0.7081190948406298
+Scarlet Witch (Wanda Maximoff),Kyle Jinadu,0.5509774219431284
+Doctor Strange,Avengers,0.532836506265856
+Doctor Strange,Anthony Stark,0.5586793095033489
+Doctor Strange,The Thing,0.600079594868268
+Doctor Strange,T'Challa,0.5645949014241606
+Coven Akkaba,Peter Wisdom,0.7531987238458147
+Coven Akkaba,Morgan Le Fay,0.6137284481705239
+Coven Akkaba,Reuben Brousseau,0.6229995343259473
+Karima Shapandar,Orchis,0.5974589658132101
+Karima Shapandar,Alia Gregor,0.9842816602107592
+Karima Shapandar,Killian Devo,0.6971237200475275
+Kyle Jinadu,Captain America (Steve Rogers),0.5550314572756794
+Kyle Jinadu,Jean-Paul Beaubier,0.6694295287063093
+Kyle Jinadu,X-Factor Investigations,0.7200037235782939
+Kyle Jinadu,Avengers,0.6295727629374219
+Kyle Jinadu,Anthony Stark,0.6588531599008884
+Kyle Jinadu,Trevor Hawkins,0.5541084931421615
+Kyle Jinadu,Scarlet Witch (Wanda Maximoff),0.5509774219431284
+Cameron Hodge,X-Factor,0.8840916058579799
+Cameron Hodge,Rusty Collins,0.9399956967154791
+Cameron Hodge,Artie Maddicks,0.9386879229439161
+Lost (Marinette),Megan Gwynn,0.5466347261284482
+Lost (Marinette),Alani Ryan,0.5860614417175158
+Lost (Marinette),Dazzler (Alison Blaire),0.5300002961505142
+Lost (Marinette),Fabian Cortez,0.5608761182531796
+Lost (Marinette),Sooraya Qadir,0.5884555750583703
+Lost (Marinette),Shen Xorn,0.7961105439065772
+Lost (Marinette),Kuan-Yin Xorn,0.899912516076724
+Lost (Marinette),James Bradley,0.8477655283960733
+Lost (Marinette),Legion (David Haller),0.9449899814850248
+Marshall Stone III,Joanna Cargill,0.6022274590994756
+Marshall Stone III,Eden Fesi,0.5116098171940955
+Sybil (Oracle),Sunspot (Roberto da Costa),0.6792854954312548
+Sybil (Oracle),Kallark,0.6749871881049097
+Sybil (Oracle),Imperial Guard,0.6842585760601568
+Sybil (Oracle),Xandra Neramani,0.5304642323551617
+Sybil (Oracle),Deathbird,0.5276577090300315
+Sybil (Oracle),Isabel Kane,0.7928296258857203
+Central Intelligence Agency,Delores Ramirez,0.7035225922628117
+Rusty Collins,X-Factor,0.8195133257128346
+Rusty Collins,Cameron Hodge,0.9399956967154791
+Rusty Collins,Artie Maddicks,0.8701025159614946
+Morgan Le Fay,Shogo Lee,0.5149382340488815
+Morgan Le Fay,Captain Britain (Brian Braddock),0.5401000342313075
+Morgan Le Fay,Peter Wisdom,0.5915669818541999
+Morgan Le Fay,Coven Akkaba,0.6137284481705239
+Artie Maddicks,X-Factor,0.818287617972339
+Artie Maddicks,Cameron Hodge,0.9386879229439161
+Artie Maddicks,Rusty Collins,0.8701025159614946
+Isabel Kane,Sunspot (Roberto da Costa),0.540385140148207
+Isabel Kane,Kallark,0.6117767516515031
+Isabel Kane,Imperial Guard,0.6128086451667281
+Isabel Kane,Deathbird,0.5061742114493794
+Isabel Kane,Sybil (Oracle),0.7928296258857203
+Killian Devo,Orchis,0.5957381644054807
+Killian Devo,Alia Gregor,0.7081190948406298
+Killian Devo,Karima Shapandar,0.6971237200475275
+Elizabeth Braddock (Earth-904),Captain Britain (Brian Braddock),0.5078545208692083
+T'Challa,Captain America (Steve Rogers),0.5096878718306318
+T'Challa,Avengers,0.5704500621467316
+T'Challa,The Thing,0.6608463784609981
+T'Challa,Doctor Strange,0.5645949014241606
+T'Challa,Mister Fantastic,0.5196788349153192
+Mister Fantastic,Avengers,0.5046742369092877
+Mister Fantastic,The Thing,0.5769049930642396
+Mister Fantastic,T'Challa,0.5196788349153192
+Reuben Brousseau,Peter Wisdom,0.5951631329439472
+Reuben Brousseau,Coven Akkaba,0.6229995343259473
+Dazzler (Alison Blaire),James Bradley,0.4981688602268912
+Robert Herman,Jonothon Starsmore,0.498021748160883
+Dazzler (Alison Blaire),Legion (David Haller),0.4971301886777688
+Cannonball (Samuel Guthrie),Sunspot (Roberto da Costa),0.49496289968553964
+Sunspot (Roberto da Costa),Cannonball (Samuel Guthrie),0.49496289968553964
+Destiny (Irene Adler),Mystique (Raven Darkhölme),0.4944426160793186
+Akihiro,Gabrielle Kinney,0.4942468397722179
+Iceman (Bobby Drake),Lucas Bishop (Earth-1191),0.49047296471605173
+Cannonball (Samuel Guthrie),Imperial Guard,0.4879359436588758
+Warlock,Mondo,0.48331818186100123
+Beast (Henry McCoy),Sage,0.482930673126589
+Cannonball (Samuel Guthrie),Kallark,0.4828060586596316
+Monet St. Croix,Angel (Warren Worthington III),0.4805522465075368
+Angel (Warren Worthington III),Monet St. Croix,0.4805522465075368
+Polaris (Lorna Dane),Sunfire (Shiro Yoshida),0.48030544631186584
+Sunfire (Shiro Yoshida),Polaris (Lorna Dane),0.48030544631186584
+Angel (Warren Worthington III),Cameron Hodge,0.479376032026777
+Elizabeth Braddock (Earth-904),Opal Luna Saturnyne (Earth-9),0.47820172239294106
+Apocalypse (En Sabah Nur),Genesis,0.47696122256142304
+Tomi Shishido,Genesis,0.47652036314893575
+Elizabeth Braddock (Earth-904),Shogo Lee,0.4720634153405864
+Callisto,Shinobi Shaw,0.47192649852563395
+X-Corporation,Doctor Strange,0.47158566968432847
+Marshall Stone III,Abigail Brand,0.4713876364146503
+Rachel Summers,David Alleyne,0.4704537350316637
+Beast (Henry McCoy),X-Force (Strike Team),0.46879220333296295
+Masque,Homines Verendi,0.46847963775963736
+Hisako Ichiki,New Mutants,0.4666115290411337
+Multiple Man (James Madrox),Doctor Strange,0.463968609188869
+Cyclops (Scott Summers),X-Men,0.4621979991346234
+Reuben Brousseau,Excalibur,0.46096064946563486
+Scarlet Witch (Wanda Maximoff),X-Factor Investigations,0.4608117492394691
+Tomi Shishido,War (First Horsemen),0.4544726976036533
+XENO,Neena Thurman,0.4540887566180706
+Madelyne Pryor,Orphan-Maker (Peter),0.4531899036367086
+Man with the Peacock Tattoo,Neena Thurman,0.45160904296585747
+Black Tom Cassidy,Quintavius Quire,0.4511487013667424
+Quintavius Quire,Black Tom Cassidy,0.4511487013667424
+Jeanne-Marie Beaubier,Trevor Hawkins,0.4496932363636559
+Apocalypse (En Sabah Nur),War (First Horsemen),0.4463988092310481
+Jeanne-Marie Beaubier,X-Factor Investigations,0.4435615709565839
+Storm (Ororo Munroe),Black King (Sebastian Shaw),0.44157278776091174
+Hisako Ichiki,Robert Herman,0.43691012599118306
+Robert Herman,Hisako Ichiki,0.43691012599118306
+Amazing Baby,Rictor (Julio Richter),0.4356656396373796
+Destiny (Irene Adler),Killian Devo,0.43473019781865674
+Cypher (Douglas Ramsey),Magik (Illyana Rasputina),0.43390641149615194
+Black Tom Cassidy,Sage,0.4331466347677241
+Scarlet Witch (Wanda Maximoff),Jean-Paul Beaubier,0.4328046732716211
+Storm (Ororo Munroe),Cypher (Douglas Ramsey),0.42668692526358504
+Cypher (Douglas Ramsey),Storm (Ororo Munroe),0.42668692526358504
+Cessily Kincaid,Lost (Marinette),0.425925925925926
+Apocalypse (En Sabah Nur),Famine (First Horsemen),0.4258142303717586
+Black Tom Cassidy,X-Force (Strike Team),0.42318933607443093
+Man with the Peacock Tattoo,Sage,0.42309385334449584
+Wolverine (James Howlett),Neena Thurman,0.4221791407482527
+Desmond Ochoa-Diaz,Sooraya Qadir,0.4165713072305898
+Cyclops (Scott Summers),Everett Thomas,0.41465905466437236
+Laura Kinney,Polaris (Lorna Dane),0.41327953146553903
+Magma (Amara Aquilla),Hisako Ichiki,0.4087047961525999
+Cessily Kincaid,Alani Ryan,0.4061811972299616
+Madelyne Pryor,Kyle Gibney,0.4059349044222296
+Desmond Ochoa-Diaz,Martha Johansson,0.4055412802098694
+Cessily Kincaid,James Bradley,0.4004803533892616
+Jean Grey,Beast (Henry McCoy),0.3972422286458887
+Wolverine (James Howlett),Sage,0.3971606343182216
+Wolverine (James Howlett),X-Force (Strike Team),0.39514595985079126
+Gabriel Summers,Sunspot (Roberto da Costa),0.3895240503014131
+Magma (Amara Aquilla),Wolfsbane (Rahne Sinclair),0.38699248759247923
+Desmond Ochoa-Diaz,Lost Club,0.38589305030685533
+Madelyne Pryor,Nanny,0.3851548868828072
+Moira MacTaggert,Killian Devo,0.382210387754452
+Jumbo Carnation,Shinobi Shaw,0.37734707862007116
+Arakko,Horsemen of Apocalypse,0.37669985959525143
+Akihiro,Jean-Paul Beaubier,0.37572694994206574
+Reavers,XENO,0.37514450741919414
+Amazing Baby,Shogo Lee,0.3683819210694274
+Jumbo Carnation,Homines Verendi,0.3674912513076735
+Banshee (Sean Cassidy),Kuan-Yin Xorn,0.366559655329948
+Colossus (Piotr Rasputin),Nightcrawler (Kurt Wagner),0.36626007290511187
+Mastermind (Jason Wyngarde),Hellions (Essex),0.3642234381780493
+Forge,Guido,0.36368048210758674
+Guido,Forge,0.36368048210758674
+Blob,James Bradley,0.3625797286049385
+Jumbo Carnation,Christian Frost,0.36240716187713695
+Colossus (Piotr Rasputin),Beast (Henry McCoy),0.3560143560600585
+Moira MacTaggert,Destiny (Irene Adler),0.3538948612544411
+Destiny (Irene Adler),Moira MacTaggert,0.3538948612544411
+Heather Tucker,Lucas Bishop (Earth-1191),0.3521469561343852
+Jean Grey,Angel (Warren Worthington III),0.35009609122909313
+Santo Vaccarro,Victor Borkowski,0.34959149350033547
+Guido,Desmond Ochoa-Diaz,0.3440538412113048
+Reavers,Homines Verendi,0.34397287446580255
+Sabretooth (Victor Creed),Arkady Rossovich,0.34073270160122876
+Arkady Rossovich,Sabretooth (Victor Creed),0.34073270160122876
+Blob,Shen Xorn,0.34062276369075095
+Heather Tucker,Hellfire Club,0.34035079426495024
+Blob,Kuan-Yin Xorn,0.3400156382832622
+Cable (Nathan Summers),Marshall Stone III,0.33969965203660973
+Selene Gallio,Monet St. Croix,0.3392279590609847
+Heather Tucker,Xandra Neramani,0.338464303743696
+Reavers,Kade Kilgore,0.33744023353106156
+Cable (Nathan Summers),Swordbearers of Krakoa,0.33588980649542016
+Santo Vaccarro,Magma (Amara Aquilla),0.33152448567955695
+Banshee (Sean Cassidy),Legion (David Haller),0.33146344735952776
+Banshee (Sean Cassidy),Mister Fantastic,0.3279607726151769
+Juggernaut (Cain Marko),Lost (Marinette),0.32487997744753416
+Arkady Rossovich,Wolverine (James Howlett),0.32339297757433244
+Krakoa,Professor X (Charles Xavier),0.31913305074514703
+Colossus (Piotr Rasputin),X-Force (Strike Team),0.3183481328380456
+Cable (Nathan Summers),Abigail Brand,0.3159419940770511
+Guido,Victor Borkowski,0.31227728892926876
+Juggernaut (Cain Marko),Legion (David Haller),0.30352823858419875
+Mastermind (Jason Wyngarde),Orphan-Maker (Peter),0.3034342859119832
+Cecilia Reyes,Neena Thurman,0.30327023650845586
+Sabretooth (Victor Creed),Mikhail Rasputin,0.302284616588533
+Mikhail Rasputin,Sabretooth (Victor Creed),0.302284616588533
+Forge,Neena Thurman,0.29781336405337466
+Mastermind (Jason Wyngarde),Mister Sinister (Nathaniel Essex),0.2937907273226152
+Moira MacTaggert,Karima Shapandar,0.29154950812482644
+Healer (Morlock),XENO,0.2882309723203994
+Juggernaut (Cain Marko),Sooraya Qadir,0.2880229144255802
+Selene Gallio,Angel (Warren Worthington III),0.2873485094301648
+Forearm,Roxanne Washington,0.2811527367741248
+Roxanne Washington,Forearm,0.2811527367741248
+Forearm,Joanna Cargill,0.2766044724933637
+Forearm,Monet St. Croix,0.27621054076274465
+Santo Vaccarro,Summoner (Arakko),0.2702305529989666
+Mortimer Toynbee,Fabio Medina,0.268155194885417
+Healer (Morlock),Man with the Peacock Tattoo,0.26393854275120576
+Sabretooth (Victor Creed),Wolverine (James Howlett),0.263526671229226
+Selene Gallio,Guido,0.25975852313276554
+Roxanne Washington,Blob,0.2575925991950966
+Healer (Morlock),James Bradley,0.2565346274683164
+Krakoa,Bennet du Paris,0.25504986468103513
+Great Ring of Arakko,Gabriel Summers,0.25166854908696396
+Gabriel Summers,Great Ring of Arakko,0.25166854908696396
+Krakoa,Nightcrawler (Kurt Wagner),0.251556843672685
+Central Intelligence Agency,Wolverine (James Howlett),0.2507611132271812
+Roxanne Washington,Multiple Man (James Madrox),0.24843637350709988
+Mortimer Toynbee,Guido,0.24751165662298358
+Gabriel Summers,Cable (Nathan Summers),0.24665118141264802
+Mortimer Toynbee,Beast (Henry McCoy),0.24300027502566232
+Cecilia Reyes,Sage,0.2416090017195523
+Cecilia Reyes,X-Force (Strike Team),0.2380031729398968
+Mikhail Rasputin,X-Force (Strike Team),0.2323281105594317
+Forge,Quintavius Quire,0.22237409879539333
+Delores Ramirez,Wolverine (James Howlett),0.21836513951560052
+Delores Ramirez,Chen Zhao,0.20528019848540097

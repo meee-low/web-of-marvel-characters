@@ -1,0 +1,995 @@
+source,target,correlation
+Mister Fantastic,Susan Storm,0.7104576488384661
+Mister Fantastic,The Thing,0.5449026557759759
+Susan Storm,Mister Fantastic,0.7104576488384661
+Susan Storm,The Thing,0.5971683056494987
+Valeria Richards,Franklin Richards,0.7642526785108703
+Valeria Richards,Bentley Wittman (Clone),0.5547897209550936
+Valeria Richards,Mik (Moloid),0.5196009237966684
+Valeria Richards,Alexander Power,0.6064691896945636
+Valeria Richards,Draconus,0.5843487097907776
+Valeria Richards,Tong (Moloid),0.5630925063714732
+Valeria Richards,Korr (Moloid),0.5426095162342935
+Valeria Richards,Leech,0.5426095162342935
+The Thing,Mister Fantastic,0.5449026557759759
+The Thing,Susan Storm,0.5971683056494987
+The Thing,Fantastic Four,0.6242466507301793
+Future Foundation,Bentley Wittman (Clone),0.636082652595809
+Future Foundation,Mik (Moloid),0.5701201667632789
+Future Foundation,Alexander Power,0.6500850732703363
+Future Foundation,Draconus,0.6236220155800971
+Future Foundation,Turg (Moloid),0.5183439448387849
+Future Foundation,Tong (Moloid),0.5980891671216749
+Future Foundation,Vil,0.598089167121675
+Future Foundation,Wu,0.598089167121675
+Future Foundation,Korr (Moloid),0.5733775877845442
+Franklin Richards,Valeria Richards,0.7642526785108703
+Franklin Richards,Mik (Moloid),0.5602344040696189
+Franklin Richards,Alexander Power,0.6380047326551186
+Franklin Richards,Draconus,0.6093816105576185
+Franklin Richards,Turg (Moloid),0.504118377314163
+Franklin Richards,Tong (Moloid),0.5816750507471111
+Franklin Richards,Vil,0.5041183773141628
+Franklin Richards,Wu,0.5041183773141628
+Franklin Richards,Korr (Moloid),0.5547672209321717
+Franklin Richards,Leech,0.6323771430314908
+Franklin Richards,Artie Maddicks,0.6346376737623803
+Jonathan Storm,Fantastic Four,0.8251858809291364
+Bentley Wittman (Clone),Valeria Richards,0.5547897209550936
+Bentley Wittman (Clone),Future Foundation,0.636082652595809
+Bentley Wittman (Clone),Mik (Moloid),0.6722310044371445
+Bentley Wittman (Clone),Alexander Power,0.7491387888430889
+Bentley Wittman (Clone),Draconus,0.7959171834405435
+Bentley Wittman (Clone),Turg (Moloid),0.6135719910778964
+Bentley Wittman (Clone),Tong (Moloid),0.6902684899626335
+Bentley Wittman (Clone),Vil,0.6902684899626333
+Bentley Wittman (Clone),Wu,0.6902684899626333
+Bentley Wittman (Clone),Korr (Moloid),0.6623167990773093
+Bentley Wittman (Clone),Leech,0.6623167990773097
+Bentley Wittman (Clone),Artie Maddicks,0.5055259362666413
+Fantastic Four,The Thing,0.6242466507301793
+Fantastic Four,Jonathan Storm,0.8251858809291364
+Mik (Moloid),Valeria Richards,0.5196009237966684
+Mik (Moloid),Future Foundation,0.5701201667632789
+Mik (Moloid),Franklin Richards,0.5602344040696189
+Mik (Moloid),Bentley Wittman (Clone),0.6722310044371445
+Mik (Moloid),Alexander Power,0.851034482758621
+Mik (Moloid),Draconus,0.8891966647495615
+Mik (Moloid),Turg (Moloid),0.9284766908852593
+Mik (Moloid),Tong (Moloid),0.9284766908852594
+Mik (Moloid),Vil,0.8541985556144386
+Mik (Moloid),Wu,0.8541985556144386
+Mik (Moloid),Korr (Moloid),0.8947025264507971
+Mik (Moloid),Leech,0.7460442605174338
+Mik (Moloid),Artie Maddicks,0.5744289025676235
+Alexander Power,Valeria Richards,0.6064691896945636
+Alexander Power,Future Foundation,0.6500850732703363
+Alexander Power,Franklin Richards,0.6380047326551186
+Alexander Power,Bentley Wittman (Clone),0.7491387888430889
+Alexander Power,Mik (Moloid),0.851034482758621
+Alexander Power,Draconus,0.9635257977162426
+Alexander Power,Turg (Moloid),0.7799204203436181
+Alexander Power,Tong (Moloid),0.854198555614439
+Alexander Power,Vil,0.8541985556144386
+Alexander Power,Wu,0.8541985556144386
+Alexander Power,Korr (Moloid),0.8203733934841153
+Alexander Power,Leech,0.8203733934841154
+Alexander Power,Artie Maddicks,0.7246427560235635
+Draconus,Valeria Richards,0.5843487097907776
+Draconus,Future Foundation,0.6236220155800971
+Draconus,Franklin Richards,0.6093816105576185
+Draconus,Bentley Wittman (Clone),0.7959171834405435
+Draconus,Mik (Moloid),0.8891966647495615
+Draconus,Alexander Power,0.9635257977162426
+Draconus,Turg (Moloid),0.8153742483272116
+Draconus,Tong (Moloid),0.8894991799933221
+Draconus,Vil,0.8894991799933216
+Draconus,Wu,0.8894991799933216
+Draconus,Korr (Moloid),0.8543956043956045
+Draconus,Leech,0.8543956043956047
+Draconus,Artie Maddicks,0.6801201241845051
+Turg (Moloid),Future Foundation,0.5183439448387849
+Turg (Moloid),Franklin Richards,0.504118377314163
+Turg (Moloid),Bentley Wittman (Clone),0.6135719910778964
+Turg (Moloid),Mik (Moloid),0.9284766908852593
+Turg (Moloid),Alexander Power,0.7799204203436181
+Turg (Moloid),Draconus,0.8153742483272116
+Turg (Moloid),Tong (Moloid),0.925925925925926
+Turg (Moloid),Vil,0.7777777777777777
+Turg (Moloid),Wu,0.7777777777777777
+Turg (Moloid),Korr (Moloid),0.8894991799933214
+Turg (Moloid),Leech,0.741249316661101
+Tong (Moloid),Valeria Richards,0.5630925063714732
+Tong (Moloid),Future Foundation,0.5980891671216749
+Tong (Moloid),Franklin Richards,0.5816750507471111
+Tong (Moloid),Bentley Wittman (Clone),0.6902684899626335
+Tong (Moloid),Mik (Moloid),0.9284766908852594
+Tong (Moloid),Alexander Power,0.854198555614439
+Tong (Moloid),Draconus,0.8894991799933221
+Tong (Moloid),Turg (Moloid),0.925925925925926
+Tong (Moloid),Vil,0.8518518518518519
+Tong (Moloid),Wu,0.8518518518518519
+Tong (Moloid),Korr (Moloid),0.8894991799933215
+Tong (Moloid),Leech,0.7412493166611013
+Tong (Moloid),Artie Maddicks,0.5617544147048535
+Vil,Future Foundation,0.598089167121675
+Vil,Franklin Richards,0.5041183773141628
+Vil,Bentley Wittman (Clone),0.6902684899626333
+Vil,Mik (Moloid),0.8541985556144386
+Vil,Alexander Power,0.8541985556144386
+Vil,Draconus,0.8894991799933216
+Vil,Turg (Moloid),0.7777777777777777
+Vil,Tong (Moloid),0.8518518518518519
+Vil,Wu,1.0
+Vil,Korr (Moloid),0.8153742483272113
+Vil,Leech,0.7412493166611009
+Vil,Artie Maddicks,0.6366550033321674
+Wu,Future Foundation,0.598089167121675
+Wu,Franklin Richards,0.5041183773141628
+Wu,Bentley Wittman (Clone),0.6902684899626333
+Wu,Mik (Moloid),0.8541985556144386
+Wu,Alexander Power,0.8541985556144386
+Wu,Draconus,0.8894991799933216
+Wu,Turg (Moloid),0.7777777777777777
+Wu,Tong (Moloid),0.8518518518518519
+Wu,Vil,1.0
+Wu,Korr (Moloid),0.8153742483272113
+Wu,Leech,0.7412493166611009
+Wu,Artie Maddicks,0.6366550033321674
+Korr (Moloid),Valeria Richards,0.5426095162342935
+Korr (Moloid),Future Foundation,0.5733775877845442
+Korr (Moloid),Franklin Richards,0.5547672209321717
+Korr (Moloid),Bentley Wittman (Clone),0.6623167990773093
+Korr (Moloid),Mik (Moloid),0.8947025264507971
+Korr (Moloid),Alexander Power,0.8203733934841153
+Korr (Moloid),Draconus,0.8543956043956045
+Korr (Moloid),Turg (Moloid),0.8894991799933214
+Korr (Moloid),Tong (Moloid),0.8894991799933215
+Korr (Moloid),Vil,0.8153742483272113
+Korr (Moloid),Wu,0.8153742483272113
+Korr (Moloid),Leech,0.7774725274725275
+Korr (Moloid),Artie Maddicks,0.5191120947857242
+Leech,Valeria Richards,0.5426095162342935
+Leech,Franklin Richards,0.6323771430314908
+Leech,Bentley Wittman (Clone),0.6623167990773097
+Leech,Mik (Moloid),0.7460442605174338
+Leech,Alexander Power,0.8203733934841154
+Leech,Draconus,0.8543956043956047
+Leech,Turg (Moloid),0.741249316661101
+Leech,Tong (Moloid),0.7412493166611013
+Leech,Vil,0.7412493166611009
+Leech,Wu,0.7412493166611009
+Leech,Korr (Moloid),0.7774725274725275
+Leech,Artie Maddicks,0.6690161221570029
+Nathaniel Richards,Doctor Doom,0.7158012736039469
+Nathaniel Richards,Reed Richards (Earth-12498),0.5509023109351984
+Artie Maddicks,Franklin Richards,0.6346376737623803
+Artie Maddicks,Bentley Wittman (Clone),0.5055259362666413
+Artie Maddicks,Mik (Moloid),0.5744289025676235
+Artie Maddicks,Alexander Power,0.7246427560235635
+Artie Maddicks,Draconus,0.6801201241845051
+Artie Maddicks,Tong (Moloid),0.5617544147048535
+Artie Maddicks,Vil,0.6366550033321674
+Artie Maddicks,Wu,0.6366550033321674
+Artie Maddicks,Korr (Moloid),0.5191120947857242
+Artie Maddicks,Leech,0.6690161221570029
+Doctor Doom,Nathaniel Richards,0.7158012736039469
+Reed Richards (Earth-12498),Nathaniel Richards,0.5509023109351984
+Reed Richards (Earth-12498),Reed Richards (Earth-4280),0.6006775759334738
+Reed Richards (Earth-12498),Reed Richards (Earth-Unknown),0.5467969168291887
+Reed Richards (Earth-12498),Reed Richards (Earth-99107),0.6030478303257131
+Reed Richards (Earth-12498),Reed Richards (Earth-98570),0.550961583606049
+Medusalith Amaquelin,Blackagar Boltagon,0.9995037387007464
+Medusalith Amaquelin,Universal Inhumans,0.6353719163086113
+Medusalith Amaquelin,House of Agon,0.9492622930986463
+Medusalith Amaquelin,Supreme Intelligence,0.789477767030725
+Medusalith Amaquelin,Onomi Whitemane,0.623615642350538
+Medusalith Amaquelin,Triton,0.8466305078268895
+Medusalith Amaquelin,Lockjaw,0.7942098153317111
+Medusalith Amaquelin,Karnak Mander-Azur,0.794209815331711
+Medusalith Amaquelin,Oola Udonta,0.6779839886978021
+Medusalith Amaquelin,Gorgon Petragon,0.7406044715484723
+Medusalith Amaquelin,Aladi Ko Eke,0.6186756865984185
+Medusalith Amaquelin,Maximus Boltagon,0.7406044715484719
+Medusalith Amaquelin,Avoe,0.6186756865984185
+Medusalith Amaquelin,Accuser Corps,0.502302391301985
+Blackagar Boltagon,Medusalith Amaquelin,0.9995037387007464
+Blackagar Boltagon,Universal Inhumans,0.6342658454759403
+Blackagar Boltagon,House of Agon,0.9487912109597405
+Blackagar Boltagon,Supreme Intelligence,0.7898758395181088
+Blackagar Boltagon,Onomi Whitemane,0.6227611680175976
+Blackagar Boltagon,Triton,0.8462103578710873
+Blackagar Boltagon,Lockjaw,0.7938156797368743
+Blackagar Boltagon,Karnak Mander-Azur,0.7938156797368744
+Blackagar Boltagon,Oola Udonta,0.6773635017803648
+Blackagar Boltagon,Gorgon Petragon,0.7402369382111884
+Blackagar Boltagon,Aladi Ko Eke,0.6180706953523739
+Blackagar Boltagon,Maximus Boltagon,0.7402369382111886
+Blackagar Boltagon,Avoe,0.6180706953523739
+Blackagar Boltagon,Accuser Corps,0.5020531180646591
+Universal Inhumans,Medusalith Amaquelin,0.6353719163086113
+Universal Inhumans,Blackagar Boltagon,0.6342658454759403
+Universal Inhumans,House of Agon,0.5701062394819165
+Universal Inhumans,Supreme Intelligence,0.500918511793238
+Universal Inhumans,Onomi Whitemane,0.8914143068894169
+Universal Inhumans,Triton,0.6616464187174431
+Universal Inhumans,Lockjaw,0.7164755289595541
+Universal Inhumans,Karnak Mander-Azur,0.5967303152058683
+Universal Inhumans,Oola Udonta,0.8362207427132402
+Universal Inhumans,Gorgon Petragon,0.5285381412549612
+Universal Inhumans,Aladi Ko Eke,0.7797798633303826
+Universal Inhumans,Avoe,0.7797798633303826
+Universal Inhumans,Eldrac,0.5288724347302979
+Universal Inhumans,Accuser Corps,0.528872434730298
+House of Agon,Medusalith Amaquelin,0.9492622930986463
+House of Agon,Blackagar Boltagon,0.9487912109597405
+House of Agon,Universal Inhumans,0.5701062394819165
+House of Agon,Supreme Intelligence,0.7238536465231605
+House of Agon,Onomi Whitemane,0.5478707307954475
+House of Agon,Triton,0.8918825850158447
+House of Agon,Lockjaw,0.8366600265340755
+House of Agon,Karnak Mander-Azur,0.8366600265340755
+House of Agon,Oola Udonta,0.5976143046671968
+House of Agon,Gorgon Petragon,0.7801894976054936
+House of Agon,Aladi Ko Eke,0.6548018997760393
+House of Agon,Maximus Boltagon,0.7801894976054936
+House of Agon,Avoe,0.6548018997760393
+Franklin Richards (Earth-10774),Valeria Richards (Earth-10774),0.7171371656006358
+Supreme Intelligence,Medusalith Amaquelin,0.789477767030725
+Supreme Intelligence,Blackagar Boltagon,0.7898758395181088
+Supreme Intelligence,Universal Inhumans,0.500918511793238
+Supreme Intelligence,House of Agon,0.7238536465231605
+Supreme Intelligence,Triton,0.5863033578331203
+Supreme Intelligence,Lockjaw,0.5129225624680507
+Supreme Intelligence,Crystalia Amaquelin,0.6365183606531228
+Supreme Intelligence,Ronan,0.6365183606531228
+Supreme Intelligence,Karnak Mander-Azur,0.5129225624680507
+Supreme Intelligence,Oola Udonta,0.5129225624680507
+Supreme Intelligence,Maximus Boltagon,0.5647430128208093
+Supreme Intelligence,Accuser Corps,0.5589072510326077
+Reed Richards (Earth-4280),Reed Richards (Earth-12498),0.6006775759334738
+Reed Richards (Earth-4280),Reed Richards (Earth-Unknown),0.824196823345795
+Reed Richards (Earth-4280),Mad Thinker (Julius),0.6990252954195314
+Reed Richards (Earth-4280),Harvey Elder,0.5527176754480018
+Reed Richards (Earth-4280),Herbert Wyndham,0.5527176754480018
+Reed Richards (Earth-4280),Robert Jema,0.5527176754480018
+Reed Richards (Earth-4280),Esteban Corazón de Ablo,0.6990252954195314
+Reed Richards (Earth-4280),Reed Richards (Earth-98570),0.5272997572616644
+Onomi Whitemane,Medusalith Amaquelin,0.623615642350538
+Onomi Whitemane,Blackagar Boltagon,0.6227611680175976
+Onomi Whitemane,Universal Inhumans,0.8914143068894169
+Onomi Whitemane,House of Agon,0.5478707307954475
+Onomi Whitemane,Triton,0.6318181818181817
+Onomi Whitemane,Lockjaw,0.6822422923379534
+Onomi Whitemane,Karnak Mander-Azur,0.5543218625245872
+Onomi Whitemane,Oola Udonta,0.9380831519646858
+Onomi Whitemane,Gorgon Petragon,0.6063726140217526
+Onomi Whitemane,Aladi Ko Eke,0.8747670497362985
+Onomi Whitemane,Avoe,0.8747670497362985
+Onomi Whitemane,Eldrac,0.5932958789676532
+Annihilus,Jennifer Walters,0.523745978626509
+Annihilus,Binary (Carol Danvers),0.5925957196817851
+Annihilus,Jessica Drew,0.5081466374346646
+Bentley Wittman,Andrew Forson,0.8747670497362988
+Bentley Wittman,Advanced Idea Mechanics,0.6675893955080097
+Bentley Wittman,Mad Thinker (Julius),0.5899248796553368
+Bentley Wittman,Harvey Elder,0.5899248796553368
+Bentley Wittman,Herbert Wyndham,0.5899248796553368
+Bentley Wittman,Robert Jema,0.7416198487095669
+Bentley Wittman,Esteban Corazón de Ablo,0.5899248796553368
+Reed Richards (Earth-Unknown),Reed Richards (Earth-12498),0.5467969168291887
+Reed Richards (Earth-Unknown),Reed Richards (Earth-4280),0.824196823345795
+Reed Richards (Earth-Unknown),Mad Thinker (Julius),0.5899248796553367
+Reed Richards (Earth-Unknown),Esteban Corazón de Ablo,0.5899248796553367
+Triton,Medusalith Amaquelin,0.8466305078268895
+Triton,Blackagar Boltagon,0.8462103578710873
+Triton,Universal Inhumans,0.6616464187174431
+Triton,House of Agon,0.8918825850158447
+Triton,Supreme Intelligence,0.5863033578331203
+Triton,Onomi Whitemane,0.6318181818181817
+Triton,Lockjaw,0.938083151964686
+Triton,Karnak Mander-Azur,0.938083151964686
+Triton,Oola Udonta,0.6822422923379533
+Triton,Gorgon Petragon,0.8747670497362987
+Triton,Aladi Ko Eke,0.7405698318790255
+Triton,Maximus Boltagon,0.6063726140217524
+Triton,Avoe,0.7405698318790255
+Lockjaw,Medusalith Amaquelin,0.7942098153317111
+Lockjaw,Blackagar Boltagon,0.7938156797368743
+Lockjaw,Universal Inhumans,0.7164755289595541
+Lockjaw,House of Agon,0.8366600265340755
+Lockjaw,Supreme Intelligence,0.5129225624680507
+Lockjaw,Onomi Whitemane,0.6822422923379534
+Lockjaw,Triton,0.938083151964686
+Lockjaw,Karnak Mander-Azur,0.8666666666666665
+Lockjaw,Oola Udonta,0.7333333333333332
+Lockjaw,Gorgon Petragon,0.7926290870042667
+Lockjaw,Aladi Ko Eke,0.7926290870042666
+Lockjaw,Maximus Boltagon,0.5128776445321722
+Lockjaw,Avoe,0.7926290870042666
+Valeria Richards (Earth-10774),Franklin Richards (Earth-10774),0.7171371656006358
+Crystalia Amaquelin,Supreme Intelligence,0.6365183606531228
+Crystalia Amaquelin,Ronan,1.0
+Crystalia Amaquelin,Anthony Stark,0.5128776445321727
+Crystalia Amaquelin,Kal Blackbane,0.5128776445321725
+Crystalia Amaquelin,Dara Ko Eke,0.5670807236297687
+Crystalia Amaquelin,Els Udonta,0.5670807236297687
+Crystalia Amaquelin,Light Brigade,0.5653631667486246
+Crystalia Amaquelin,Prax Ord,0.5670807236297687
+Crystalia Amaquelin,Voorr,0.5670807236297687
+Ronan,Supreme Intelligence,0.6365183606531228
+Ronan,Crystalia Amaquelin,1.0
+Ronan,Anthony Stark,0.5128776445321727
+Ronan,Kal Blackbane,0.5128776445321725
+Ronan,Dara Ko Eke,0.5670807236297687
+Ronan,Els Udonta,0.5670807236297687
+Ronan,Light Brigade,0.5653631667486246
+Ronan,Prax Ord,0.5670807236297687
+Ronan,Voorr,0.5670807236297687
+Karnak Mander-Azur,Medusalith Amaquelin,0.794209815331711
+Karnak Mander-Azur,Blackagar Boltagon,0.7938156797368744
+Karnak Mander-Azur,Universal Inhumans,0.5967303152058683
+Karnak Mander-Azur,House of Agon,0.8366600265340755
+Karnak Mander-Azur,Supreme Intelligence,0.5129225624680507
+Karnak Mander-Azur,Onomi Whitemane,0.5543218625245872
+Karnak Mander-Azur,Triton,0.938083151964686
+Karnak Mander-Azur,Lockjaw,0.8666666666666665
+Karnak Mander-Azur,Oola Udonta,0.6000000000000001
+Karnak Mander-Azur,Gorgon Petragon,0.7926290870042666
+Karnak Mander-Azur,Aladi Ko Eke,0.6527533657682196
+Karnak Mander-Azur,Maximus Boltagon,0.5128776445321727
+Karnak Mander-Azur,Avoe,0.6527533657682196
+Captain America (Steve Rogers),Anthony Stark,0.9325048082403137
+Captain America (Steve Rogers),Jennifer Walters,0.71501482544623
+Captain America (Steve Rogers),Avengers,0.7854916722275356
+Captain America (Steve Rogers),Clinton Barton,0.5428571428571428
+Captain America (Steve Rogers),Luke Cage,0.5428571428571428
+Captain America (Steve Rogers),Binary (Carol Danvers),0.6324555320336758
+Captain America (Steve Rogers),Thaddeus Ross,0.6324555320336761
+Captain America (Steve Rogers),Jessica Drew,0.5423261445466403
+Captain America (Steve Rogers),Henry Pym,0.5423261445466404
+Galan,Namor McKenzie,0.6632749229693987
+Galan,Norrin Radd,0.5413963319559122
+Oola Udonta,Medusalith Amaquelin,0.6779839886978021
+Oola Udonta,Blackagar Boltagon,0.6773635017803648
+Oola Udonta,Universal Inhumans,0.8362207427132402
+Oola Udonta,House of Agon,0.5976143046671968
+Oola Udonta,Supreme Intelligence,0.5129225624680507
+Oola Udonta,Onomi Whitemane,0.9380831519646858
+Oola Udonta,Triton,0.6822422923379533
+Oola Udonta,Lockjaw,0.7333333333333332
+Oola Udonta,Karnak Mander-Azur,0.6000000000000001
+Oola Udonta,Gorgon Petragon,0.6527533657682196
+Oola Udonta,Aladi Ko Eke,0.9325048082403136
+Oola Udonta,Avoe,0.9325048082403136
+Gorgon Petragon,Medusalith Amaquelin,0.7406044715484723
+Gorgon Petragon,Blackagar Boltagon,0.7402369382111884
+Gorgon Petragon,Universal Inhumans,0.5285381412549612
+Gorgon Petragon,House of Agon,0.7801894976054936
+Gorgon Petragon,Onomi Whitemane,0.6063726140217526
+Gorgon Petragon,Triton,0.8747670497362987
+Gorgon Petragon,Lockjaw,0.7926290870042667
+Gorgon Petragon,Karnak Mander-Azur,0.7926290870042666
+Gorgon Petragon,Oola Udonta,0.6527533657682196
+Gorgon Petragon,Aladi Ko Eke,0.7065217391304347
+Gorgon Petragon,Maximus Boltagon,0.7065217391304345
+Gorgon Petragon,Avoe,0.7065217391304347
+Aladi Ko Eke,Medusalith Amaquelin,0.6186756865984185
+Aladi Ko Eke,Blackagar Boltagon,0.6180706953523739
+Aladi Ko Eke,Universal Inhumans,0.7797798633303826
+Aladi Ko Eke,House of Agon,0.6548018997760393
+Aladi Ko Eke,Onomi Whitemane,0.8747670497362985
+Aladi Ko Eke,Triton,0.7405698318790255
+Aladi Ko Eke,Lockjaw,0.7926290870042666
+Aladi Ko Eke,Karnak Mander-Azur,0.6527533657682196
+Aladi Ko Eke,Oola Udonta,0.9325048082403136
+Aladi Ko Eke,Gorgon Petragon,0.7065217391304347
+Aladi Ko Eke,Avoe,1.0
+Namor McKenzie,Galan,0.6632749229693987
+Namor McKenzie,Cult of the Negative Zone,0.5149530079934489
+Namor McKenzie,Anti-Priest,0.5149530079934489
+Namor McKenzie,Clinton Barton,0.5853322703719218
+Namor McKenzie,Norrin Radd,0.5853322703719216
+Namor McKenzie,Luke Cage,0.7654345074094361
+Namor McKenzie,Daniel Rand,0.6777446040687973
+Namor McKenzie,New Avengers,0.6777446040687973
+Namor McKenzie,Wolverine (James Howlett),0.6777446040687973
+Namor McKenzie,X-Men,0.5778748168237446
+Namor McKenzie,Jessica Drew,0.581161203428843
+Namor McKenzie,White Queen (Emma Frost),0.581161203428843
+Maximus Boltagon,Medusalith Amaquelin,0.7406044715484719
+Maximus Boltagon,Blackagar Boltagon,0.7402369382111886
+Maximus Boltagon,House of Agon,0.7801894976054936
+Maximus Boltagon,Supreme Intelligence,0.5647430128208093
+Maximus Boltagon,Triton,0.6063726140217524
+Maximus Boltagon,Lockjaw,0.5128776445321722
+Maximus Boltagon,Karnak Mander-Azur,0.5128776445321727
+Maximus Boltagon,Gorgon Petragon,0.7065217391304345
+Avoe,Medusalith Amaquelin,0.6186756865984185
+Avoe,Blackagar Boltagon,0.6180706953523739
+Avoe,Universal Inhumans,0.7797798633303826
+Avoe,House of Agon,0.6548018997760393
+Avoe,Onomi Whitemane,0.8747670497362985
+Avoe,Triton,0.7405698318790255
+Avoe,Lockjaw,0.7926290870042666
+Avoe,Karnak Mander-Azur,0.6527533657682196
+Avoe,Oola Udonta,0.9325048082403136
+Avoe,Gorgon Petragon,0.7065217391304347
+Avoe,Aladi Ko Eke,1.0
+Anthony Stark,Crystalia Amaquelin,0.5128776445321727
+Anthony Stark,Ronan,0.5128776445321727
+Anthony Stark,Captain America (Steve Rogers),0.9325048082403137
+Anthony Stark,Jennifer Walters,0.7702167086266398
+Anthony Stark,Avengers,0.8434557856068563
+Anthony Stark,Clinton Barton,0.5861458794653401
+Anthony Stark,Luke Cage,0.5861458794653402
+Anthony Stark,Binary (Carol Danvers),0.6782329983125268
+Anthony Stark,Jessica Drew,0.5815799980377997
+Anthony Stark,Henry Pym,0.5815799980377999
+Kal Blackbane,Crystalia Amaquelin,0.5128776445321725
+Kal Blackbane,Ronan,0.5128776445321725
+Kal Blackbane,Dara Ko Eke,0.9254096275290223
+Kal Blackbane,Els Udonta,0.9254096275290223
+Kal Blackbane,Light Brigade,0.9243334251751864
+Kal Blackbane,Prax Ord,0.9254096275290223
+Kal Blackbane,Voorr,0.9254096275290223
+Kal Blackbane,Hooud,0.8477912478906583
+Andrew Forson,Bentley Wittman,0.8747670497362988
+Andrew Forson,Advanced Idea Mechanics,0.7702167086266396
+Andrew Forson,Mad Thinker (Julius),0.6819190472163992
+Andrew Forson,Harvey Elder,0.6819190472163993
+Andrew Forson,Herbert Wyndham,0.6819190472163993
+Andrew Forson,Robert Jema,0.8477912478906587
+Andrew Forson,Esteban Corazón de Ablo,0.6819190472163992
+Jennifer Walters,Annihilus,0.523745978626509
+Jennifer Walters,Captain America (Steve Rogers),0.71501482544623
+Jennifer Walters,Anthony Stark,0.7702167086266398
+Jennifer Walters,Avengers,0.5604644433818315
+Jennifer Walters,Luke Cage,0.6375255340185599
+Jennifer Walters,Binary (Carol Danvers),0.7329003050503233
+Jennifer Walters,Daniel Rand,0.5223863876422519
+Jennifer Walters,Thaddeus Ross,0.5223863876422516
+Jennifer Walters,New Avengers,0.5223863876422519
+Jennifer Walters,Wolverine (James Howlett),0.5223863876422519
+Jennifer Walters,Jessica Drew,0.6284568268332181
+Jennifer Walters,Greer Nelson,0.508174928781181
+Jennifer Walters,Noh-Varr (Earth-200080),0.508174928781181
+Jennifer Walters,Angelica Jones,0.508174928781181
+Jennifer Walters,Young Allies (Modern),0.508174928781181
+Jennifer Walters,Doctor Strange,0.508174928781181
+Dara Ko Eke,Crystalia Amaquelin,0.5670807236297687
+Dara Ko Eke,Ronan,0.5670807236297687
+Dara Ko Eke,Kal Blackbane,0.9254096275290223
+Dara Ko Eke,Els Udonta,1.0
+Dara Ko Eke,Light Brigade,0.9991943381822508
+Dara Ko Eke,Prax Ord,1.0
+Dara Ko Eke,Voorr,1.0
+Dara Ko Eke,Hooud,0.9161253813129044
+Advanced Idea Mechanics,Bentley Wittman,0.6675893955080097
+Advanced Idea Mechanics,Andrew Forson,0.7702167086266396
+Advanced Idea Mechanics,Robert Jema,0.5652688522994512
+Els Udonta,Crystalia Amaquelin,0.5670807236297687
+Els Udonta,Ronan,0.5670807236297687
+Els Udonta,Kal Blackbane,0.9254096275290223
+Els Udonta,Dara Ko Eke,1.0
+Els Udonta,Light Brigade,0.9991943381822508
+Els Udonta,Prax Ord,1.0
+Els Udonta,Voorr,1.0
+Els Udonta,Hooud,0.9161253813129044
+Light Brigade,Crystalia Amaquelin,0.5653631667486246
+Light Brigade,Ronan,0.5653631667486246
+Light Brigade,Kal Blackbane,0.9243334251751864
+Light Brigade,Dara Ko Eke,0.9991943381822508
+Light Brigade,Els Udonta,0.9991943381822508
+Light Brigade,Prax Ord,0.9991943381822508
+Light Brigade,Voorr,0.9991943381822508
+Light Brigade,Hooud,0.9153872940729094
+Prax Ord,Crystalia Amaquelin,0.5670807236297687
+Prax Ord,Ronan,0.5670807236297687
+Prax Ord,Kal Blackbane,0.9254096275290223
+Prax Ord,Dara Ko Eke,1.0
+Prax Ord,Els Udonta,1.0
+Prax Ord,Light Brigade,0.9991943381822508
+Prax Ord,Voorr,1.0
+Prax Ord,Hooud,0.9161253813129044
+Voorr,Crystalia Amaquelin,0.5670807236297687
+Voorr,Ronan,0.5670807236297687
+Voorr,Kal Blackbane,0.9254096275290223
+Voorr,Dara Ko Eke,1.0
+Voorr,Els Udonta,1.0
+Voorr,Light Brigade,0.9991943381822508
+Voorr,Prax Ord,1.0
+Voorr,Hooud,0.9161253813129044
+Ted Castle,Natalie X (Earth-807128),0.9035079029052508
+Ted Castle,Lightwave (Earth-807128),0.9035079029052508
+Ted Castle,Bruce Banner Jr. (Earth-807128),0.9035079029052508
+Ted Castle,Moy-2515,0.903507902905251
+Ted Castle,Alex Ultron (Earth-807128),0.7999999999999997
+Highly Engineered Robot Built for Interdimensional Exploration,Andromeda Attumasen,0.575
+Reed Richards (Earth-99107),Reed Richards (Earth-12498),0.6030478303257131
+Reed Richards (Earth-99107),Reed Richards (Earth-98570),0.9060329310222569
+Reed Richards (Earth-99107),Galan (Earth-2012),0.5421406629318819
+Hooud,Kal Blackbane,0.8477912478906583
+Hooud,Dara Ko Eke,0.9161253813129044
+Hooud,Els Udonta,0.9161253813129044
+Hooud,Light Brigade,0.9153872940729094
+Hooud,Prax Ord,0.9161253813129044
+Hooud,Voorr,0.9161253813129044
+Cult of the Negative Zone,Namor McKenzie,0.5149530079934489
+Cult of the Negative Zone,Anti-Priest,1.0
+Cult of the Negative Zone,Andromeda Attumasen,0.5749999999999997
+Cult of the Negative Zone,Greer Nelson,0.5547001962252289
+Cult of the Negative Zone,Noh-Varr (Earth-200080),0.5547001962252289
+Cult of the Negative Zone,Angelica Jones,0.5547001962252289
+Cult of the Negative Zone,Young Allies (Modern),0.5547001962252289
+Cult of the Negative Zone,Doctor Strange,0.5547001962252289
+Anti-Priest,Namor McKenzie,0.5149530079934489
+Anti-Priest,Cult of the Negative Zone,1.0
+Anti-Priest,Andromeda Attumasen,0.5749999999999997
+Anti-Priest,Greer Nelson,0.5547001962252289
+Anti-Priest,Noh-Varr (Earth-200080),0.5547001962252289
+Anti-Priest,Angelica Jones,0.5547001962252289
+Anti-Priest,Young Allies (Modern),0.5547001962252289
+Anti-Priest,Doctor Strange,0.5547001962252289
+Mad Thinker (Julius),Reed Richards (Earth-4280),0.6990252954195314
+Mad Thinker (Julius),Bentley Wittman,0.5899248796553368
+Mad Thinker (Julius),Reed Richards (Earth-Unknown),0.5899248796553367
+Mad Thinker (Julius),Andrew Forson,0.6819190472163992
+Mad Thinker (Julius),Harvey Elder,0.8124999999999999
+Mad Thinker (Julius),Herbert Wyndham,0.8124999999999999
+Mad Thinker (Julius),Robert Jema,0.8124999999999999
+Mad Thinker (Julius),Esteban Corazón de Ablo,1.0
+Harvey Elder,Reed Richards (Earth-4280),0.5527176754480018
+Harvey Elder,Bentley Wittman,0.5899248796553368
+Harvey Elder,Andrew Forson,0.6819190472163993
+Harvey Elder,Mad Thinker (Julius),0.8124999999999999
+Harvey Elder,Herbert Wyndham,1.0
+Harvey Elder,Robert Jema,0.8125
+Harvey Elder,Esteban Corazón de Ablo,0.8124999999999999
+Herbert Wyndham,Reed Richards (Earth-4280),0.5527176754480018
+Herbert Wyndham,Bentley Wittman,0.5899248796553368
+Herbert Wyndham,Andrew Forson,0.6819190472163993
+Herbert Wyndham,Mad Thinker (Julius),0.8124999999999999
+Herbert Wyndham,Harvey Elder,1.0
+Herbert Wyndham,Robert Jema,0.8125
+Herbert Wyndham,Esteban Corazón de Ablo,0.8124999999999999
+Avengers,Captain America (Steve Rogers),0.7854916722275356
+Avengers,Anthony Stark,0.8434557856068563
+Avengers,Jennifer Walters,0.5604644433818315
+Avengers,Clinton Barton,0.6970813541413193
+Avengers,Binary (Carol Danvers),0.5720595464161857
+Avengers,Daniel Rand,0.572059546416186
+Avengers,Thaddeus Ross,0.5720595464161858
+Avengers,New Avengers,0.572059546416186
+Avengers,Wolverine (James Howlett),0.572059546416186
+Avengers,Jessica Drew,0.6841700460348664
+Avengers,Henry Pym,0.6841700460348664
+Avengers,Greer Nelson,0.5532250579087965
+Avengers,Noh-Varr (Earth-200080),0.5532250579087965
+Avengers,Angelica Jones,0.5532250579087965
+Avengers,Young Allies (Modern),0.5532250579087965
+Avengers,Doctor Strange,0.5532250579087965
+Robert Jema,Reed Richards (Earth-4280),0.5527176754480018
+Robert Jema,Bentley Wittman,0.7416198487095669
+Robert Jema,Andrew Forson,0.8477912478906587
+Robert Jema,Advanced Idea Mechanics,0.5652688522994512
+Robert Jema,Mad Thinker (Julius),0.8124999999999999
+Robert Jema,Harvey Elder,0.8125
+Robert Jema,Herbert Wyndham,0.8125
+Robert Jema,Esteban Corazón de Ablo,0.8124999999999999
+Esteban Corazón de Ablo,Reed Richards (Earth-4280),0.6990252954195314
+Esteban Corazón de Ablo,Bentley Wittman,0.5899248796553368
+Esteban Corazón de Ablo,Reed Richards (Earth-Unknown),0.5899248796553367
+Esteban Corazón de Ablo,Andrew Forson,0.6819190472163992
+Esteban Corazón de Ablo,Mad Thinker (Julius),1.0
+Esteban Corazón de Ablo,Harvey Elder,0.8124999999999999
+Esteban Corazón de Ablo,Herbert Wyndham,0.8124999999999999
+Esteban Corazón de Ablo,Robert Jema,0.8124999999999999
+Natalie X (Earth-807128),Ted Castle,0.9035079029052508
+Natalie X (Earth-807128),Lightwave (Earth-807128),1.0
+Natalie X (Earth-807128),Bruce Banner Jr. (Earth-807128),1.0
+Natalie X (Earth-807128),Moy-2515,0.7795918367346938
+Natalie X (Earth-807128),Alex Ultron (Earth-807128),0.885437744847146
+Lightwave (Earth-807128),Ted Castle,0.9035079029052508
+Lightwave (Earth-807128),Natalie X (Earth-807128),1.0
+Lightwave (Earth-807128),Bruce Banner Jr. (Earth-807128),1.0
+Lightwave (Earth-807128),Moy-2515,0.7795918367346938
+Lightwave (Earth-807128),Alex Ultron (Earth-807128),0.885437744847146
+Bruce Banner Jr. (Earth-807128),Ted Castle,0.9035079029052508
+Bruce Banner Jr. (Earth-807128),Natalie X (Earth-807128),1.0
+Bruce Banner Jr. (Earth-807128),Lightwave (Earth-807128),1.0
+Bruce Banner Jr. (Earth-807128),Moy-2515,0.7795918367346938
+Bruce Banner Jr. (Earth-807128),Alex Ultron (Earth-807128),0.885437744847146
+Reed Richards (Earth-98570),Reed Richards (Earth-12498),0.550961583606049
+Reed Richards (Earth-98570),Reed Richards (Earth-4280),0.5272997572616644
+Reed Richards (Earth-98570),Reed Richards (Earth-99107),0.9060329310222569
+Reed Richards (Earth-98570),Galan (Earth-2012),0.5976959837804341
+Moy-2515,Ted Castle,0.903507902905251
+Moy-2515,Natalie X (Earth-807128),0.7795918367346938
+Moy-2515,Lightwave (Earth-807128),0.7795918367346938
+Moy-2515,Bruce Banner Jr. (Earth-807128),0.7795918367346938
+Moy-2515,Alex Ultron (Earth-807128),0.6414906110627284
+Clinton Barton,Captain America (Steve Rogers),0.5428571428571428
+Clinton Barton,Namor McKenzie,0.5853322703719218
+Clinton Barton,Anthony Stark,0.5861458794653401
+Clinton Barton,Avengers,0.6970813541413193
+Clinton Barton,T'Challa,0.5576780295914437
+Clinton Barton,Luke Cage,0.7795918367346935
+Clinton Barton,Binary (Carol Danvers),0.6414906110627284
+Clinton Barton,Daniel Rand,0.885437744847146
+Clinton Barton,New Avengers,0.885437744847146
+Clinton Barton,Wolverine (James Howlett),0.885437744847146
+Clinton Barton,X-Men,0.7568472517148499
+Clinton Barton,Jessica Drew,0.7592566023652966
+Clinton Barton,White Queen (Emma Frost),0.7592566023652965
+Clinton Barton,Greer Nelson,0.6139406135149205
+Clinton Barton,Noh-Varr (Earth-200080),0.6139406135149205
+Clinton Barton,Angelica Jones,0.6139406135149205
+Clinton Barton,Young Allies (Modern),0.6139406135149205
+Clinton Barton,Doctor Strange,0.6139406135149205
+Clinton Barton,Cyclops (Scott Summers),0.6139406135149202
+T'Challa,Clinton Barton,0.5576780295914437
+T'Challa,Luke Cage,0.5576780295914436
+T'Challa,Binary (Carol Danvers),0.6402980535266514
+T'Challa,Daniel Rand,0.6402980535266513
+T'Challa,Storm (Ororo Munroe),0.8844795146173234
+T'Challa,New Avengers,0.6402980535266513
+T'Challa,Wolverine (James Howlett),0.6402980535266513
+T'Challa,Jessica Drew,0.7584349267220195
+T'Challa,Shuri,0.5071742761515345
+T'Challa,Greer Nelson,0.6132762003942809
+T'Challa,Bast,0.6132762003942809
+T'Challa,Noh-Varr (Earth-200080),0.6132762003942809
+T'Challa,Angelica Jones,0.6132762003942809
+T'Challa,Young Allies (Modern),0.6132762003942809
+T'Challa,Doctor Strange,0.6132762003942809
+T'Challa,Anubis,0.6132762003942809
+Norrin Radd,Galan,0.5413963319559122
+Norrin Radd,Namor McKenzie,0.5853322703719216
+Norrin Radd,Andromeda Attumasen,0.6414906110627283
+Luke Cage,Captain America (Steve Rogers),0.5428571428571428
+Luke Cage,Namor McKenzie,0.7654345074094361
+Luke Cage,Anthony Stark,0.5861458794653402
+Luke Cage,Jennifer Walters,0.6375255340185599
+Luke Cage,Clinton Barton,0.7795918367346935
+Luke Cage,T'Challa,0.5576780295914436
+Luke Cage,Binary (Carol Danvers),0.6414906110627282
+Luke Cage,Daniel Rand,0.8854377448471462
+Luke Cage,New Avengers,0.8854377448471462
+Luke Cage,Wolverine (James Howlett),0.8854377448471462
+Luke Cage,X-Men,0.7568472517148499
+Luke Cage,Jessica Drew,0.7592566023652961
+Luke Cage,White Queen (Emma Frost),0.7592566023652962
+Luke Cage,Greer Nelson,0.6139406135149205
+Luke Cage,Noh-Varr (Earth-200080),0.6139406135149205
+Luke Cage,Angelica Jones,0.6139406135149205
+Luke Cage,Young Allies (Modern),0.6139406135149205
+Luke Cage,Doctor Strange,0.6139406135149205
+Luke Cage,Cyclops (Scott Summers),0.6139406135149204
+Eldrac,Universal Inhumans,0.5288724347302979
+Eldrac,Onomi Whitemane,0.5932958789676532
+Binary (Carol Danvers),Annihilus,0.5925957196817851
+Binary (Carol Danvers),Captain America (Steve Rogers),0.6324555320336758
+Binary (Carol Danvers),Anthony Stark,0.6782329983125268
+Binary (Carol Danvers),Jennifer Walters,0.7329003050503233
+Binary (Carol Danvers),Avengers,0.5720595464161857
+Binary (Carol Danvers),Clinton Barton,0.6414906110627284
+Binary (Carol Danvers),T'Challa,0.6402980535266514
+Binary (Carol Danvers),Luke Cage,0.6414906110627282
+Binary (Carol Danvers),Daniel Rand,0.7299999999999998
+Binary (Carol Danvers),New Avengers,0.7299999999999998
+Binary (Carol Danvers),Wolverine (James Howlett),0.7299999999999998
+Binary (Carol Danvers),X-Men,0.5466338859275276
+Binary (Carol Danvers),Jessica Drew,0.8574929257125444
+Binary (Carol Danvers),Henry Pym,0.5487954724560283
+Binary (Carol Danvers),White Queen (Emma Frost),0.5487954724560282
+Binary (Carol Danvers),Greer Nelson,0.6933752452815364
+Binary (Carol Danvers),Noh-Varr (Earth-200080),0.6933752452815364
+Binary (Carol Danvers),Angelica Jones,0.6933752452815364
+Binary (Carol Danvers),Young Allies (Modern),0.6933752452815364
+Binary (Carol Danvers),Doctor Strange,0.6933752452815364
+Daniel Rand,Namor McKenzie,0.6777446040687973
+Daniel Rand,Jennifer Walters,0.5223863876422519
+Daniel Rand,Avengers,0.572059546416186
+Daniel Rand,Clinton Barton,0.885437744847146
+Daniel Rand,T'Challa,0.6402980535266513
+Daniel Rand,Luke Cage,0.8854377448471462
+Daniel Rand,Binary (Carol Danvers),0.7299999999999998
+Daniel Rand,New Avengers,1.0
+Daniel Rand,Wolverine (James Howlett),1.0
+Daniel Rand,X-Men,0.855401980489102
+Daniel Rand,Jessica Drew,0.8574929257125441
+Daniel Rand,Henry Pym,0.5487954724560283
+Daniel Rand,White Queen (Emma Frost),0.8574929257125442
+Daniel Rand,Greer Nelson,0.6933752452815365
+Daniel Rand,Noh-Varr (Earth-200080),0.6933752452815365
+Daniel Rand,Angelica Jones,0.6933752452815365
+Daniel Rand,Young Allies (Modern),0.6933752452815365
+Daniel Rand,Doctor Strange,0.6933752452815365
+Daniel Rand,Cyclops (Scott Summers),0.6933752452815363
+Andromeda Attumasen,Highly Engineered Robot Built for Interdimensional Exploration,0.575
+Andromeda Attumasen,Cult of the Negative Zone,0.5749999999999997
+Andromeda Attumasen,Anti-Priest,0.5749999999999997
+Andromeda Attumasen,Norrin Radd,0.6414906110627283
+Thaddeus Ross,Captain America (Steve Rogers),0.6324555320336761
+Thaddeus Ross,Jennifer Walters,0.5223863876422516
+Thaddeus Ross,Avengers,0.5720595464161858
+Thaddeus Ross,Jessica Drew,0.5487954724560283
+Thaddeus Ross,Henry Pym,0.5487954724560283
+Thaddeus Ross,Greer Nelson,0.6933752452815364
+Thaddeus Ross,Noh-Varr (Earth-200080),0.6933752452815364
+Thaddeus Ross,Angelica Jones,0.6933752452815364
+Thaddeus Ross,Young Allies (Modern),0.6933752452815364
+Thaddeus Ross,Doctor Strange,0.6933752452815364
+Alex Ultron (Earth-807128),Ted Castle,0.7999999999999997
+Alex Ultron (Earth-807128),Natalie X (Earth-807128),0.885437744847146
+Alex Ultron (Earth-807128),Lightwave (Earth-807128),0.885437744847146
+Alex Ultron (Earth-807128),Bruce Banner Jr. (Earth-807128),0.885437744847146
+Alex Ultron (Earth-807128),Moy-2515,0.6414906110627284
+Storm (Ororo Munroe),T'Challa,0.8844795146173234
+Storm (Ororo Munroe),Jessica Drew,0.5487954724560283
+Storm (Ororo Munroe),Shuri,0.5487954724560283
+Storm (Ororo Munroe),White Queen (Emma Frost),0.5487954724560283
+Storm (Ororo Munroe),Bast,0.6933752452815364
+Storm (Ororo Munroe),Anubis,0.6933752452815364
+Accuser Corps,Medusalith Amaquelin,0.502302391301985
+Accuser Corps,Blackagar Boltagon,0.5020531180646591
+Accuser Corps,Universal Inhumans,0.528872434730298
+Accuser Corps,Supreme Intelligence,0.5589072510326077
+New Avengers,Namor McKenzie,0.6777446040687973
+New Avengers,Jennifer Walters,0.5223863876422519
+New Avengers,Avengers,0.572059546416186
+New Avengers,Clinton Barton,0.885437744847146
+New Avengers,T'Challa,0.6402980535266513
+New Avengers,Luke Cage,0.8854377448471462
+New Avengers,Binary (Carol Danvers),0.7299999999999998
+New Avengers,Daniel Rand,1.0
+New Avengers,Wolverine (James Howlett),1.0
+New Avengers,X-Men,0.855401980489102
+New Avengers,Jessica Drew,0.8574929257125441
+New Avengers,Henry Pym,0.5487954724560283
+New Avengers,White Queen (Emma Frost),0.8574929257125442
+New Avengers,Greer Nelson,0.6933752452815365
+New Avengers,Noh-Varr (Earth-200080),0.6933752452815365
+New Avengers,Angelica Jones,0.6933752452815365
+New Avengers,Young Allies (Modern),0.6933752452815365
+New Avengers,Doctor Strange,0.6933752452815365
+New Avengers,Cyclops (Scott Summers),0.6933752452815363
+Wolverine (James Howlett),Namor McKenzie,0.6777446040687973
+Wolverine (James Howlett),Jennifer Walters,0.5223863876422519
+Wolverine (James Howlett),Avengers,0.572059546416186
+Wolverine (James Howlett),Clinton Barton,0.885437744847146
+Wolverine (James Howlett),T'Challa,0.6402980535266513
+Wolverine (James Howlett),Luke Cage,0.8854377448471462
+Wolverine (James Howlett),Binary (Carol Danvers),0.7299999999999998
+Wolverine (James Howlett),Daniel Rand,1.0
+Wolverine (James Howlett),New Avengers,1.0
+Wolverine (James Howlett),X-Men,0.855401980489102
+Wolverine (James Howlett),Jessica Drew,0.8574929257125441
+Wolverine (James Howlett),Henry Pym,0.5487954724560283
+Wolverine (James Howlett),White Queen (Emma Frost),0.8574929257125442
+Wolverine (James Howlett),Greer Nelson,0.6933752452815365
+Wolverine (James Howlett),Noh-Varr (Earth-200080),0.6933752452815365
+Wolverine (James Howlett),Angelica Jones,0.6933752452815365
+Wolverine (James Howlett),Young Allies (Modern),0.6933752452815365
+Wolverine (James Howlett),Doctor Strange,0.6933752452815365
+Wolverine (James Howlett),Cyclops (Scott Summers),0.6933752452815363
+X-Men,Namor McKenzie,0.5778748168237446
+X-Men,Clinton Barton,0.7568472517148499
+X-Men,Luke Cage,0.7568472517148499
+X-Men,Binary (Carol Danvers),0.5466338859275276
+X-Men,Daniel Rand,0.855401980489102
+X-Men,New Avengers,0.855401980489102
+X-Men,Wolverine (James Howlett),0.855401980489102
+X-Men,Jessica Drew,0.6452456613191404
+X-Men,White Queen (Emma Frost),0.6452456613191405
+X-Men,Cyclops (Scott Summers),0.8072067113376871
+Jessica Drew,Annihilus,0.5081466374346646
+Jessica Drew,Captain America (Steve Rogers),0.5423261445466403
+Jessica Drew,Namor McKenzie,0.581161203428843
+Jessica Drew,Anthony Stark,0.5815799980377997
+Jessica Drew,Jennifer Walters,0.6284568268332181
+Jessica Drew,Avengers,0.6841700460348664
+Jessica Drew,Clinton Barton,0.7592566023652966
+Jessica Drew,T'Challa,0.7584349267220195
+Jessica Drew,Luke Cage,0.7592566023652961
+Jessica Drew,Binary (Carol Danvers),0.8574929257125444
+Jessica Drew,Daniel Rand,0.8574929257125441
+Jessica Drew,Thaddeus Ross,0.5487954724560283
+Jessica Drew,Storm (Ororo Munroe),0.5487954724560283
+Jessica Drew,New Avengers,0.8574929257125441
+Jessica Drew,Wolverine (James Howlett),0.8574929257125441
+Jessica Drew,X-Men,0.6452456613191404
+Jessica Drew,Henry Pym,0.6470588235294119
+Jessica Drew,White Queen (Emma Frost),0.6470588235294118
+Jessica Drew,Greer Nelson,0.80860754006264
+Jessica Drew,Noh-Varr (Earth-200080),0.80860754006264
+Jessica Drew,Angelica Jones,0.80860754006264
+Jessica Drew,Young Allies (Modern),0.80860754006264
+Jessica Drew,Doctor Strange,0.80860754006264
+Shuri,T'Challa,0.5071742761515345
+Shuri,Storm (Ororo Munroe),0.5487954724560283
+Shuri,Bast,0.8086075400626399
+Shuri,Anubis,0.8086075400626399
+Henry Pym,Captain America (Steve Rogers),0.5423261445466404
+Henry Pym,Anthony Stark,0.5815799980377999
+Henry Pym,Avengers,0.6841700460348664
+Henry Pym,Binary (Carol Danvers),0.5487954724560283
+Henry Pym,Daniel Rand,0.5487954724560283
+Henry Pym,Thaddeus Ross,0.5487954724560283
+Henry Pym,New Avengers,0.5487954724560283
+Henry Pym,Wolverine (James Howlett),0.5487954724560283
+Henry Pym,Jessica Drew,0.6470588235294119
+Henry Pym,Greer Nelson,0.8086075400626398
+Henry Pym,Noh-Varr (Earth-200080),0.8086075400626398
+Henry Pym,Angelica Jones,0.8086075400626398
+Henry Pym,Young Allies (Modern),0.8086075400626398
+Henry Pym,Doctor Strange,0.8086075400626398
+White Queen (Emma Frost),Namor McKenzie,0.581161203428843
+White Queen (Emma Frost),Clinton Barton,0.7592566023652965
+White Queen (Emma Frost),Luke Cage,0.7592566023652962
+White Queen (Emma Frost),Binary (Carol Danvers),0.5487954724560282
+White Queen (Emma Frost),Daniel Rand,0.8574929257125442
+White Queen (Emma Frost),Storm (Ororo Munroe),0.5487954724560283
+White Queen (Emma Frost),New Avengers,0.8574929257125442
+White Queen (Emma Frost),Wolverine (James Howlett),0.8574929257125442
+White Queen (Emma Frost),X-Men,0.6452456613191405
+White Queen (Emma Frost),Jessica Drew,0.6470588235294118
+White Queen (Emma Frost),Cyclops (Scott Summers),0.8086075400626401
+Greer Nelson,Jennifer Walters,0.508174928781181
+Greer Nelson,Cult of the Negative Zone,0.5547001962252289
+Greer Nelson,Anti-Priest,0.5547001962252289
+Greer Nelson,Avengers,0.5532250579087965
+Greer Nelson,Clinton Barton,0.6139406135149205
+Greer Nelson,T'Challa,0.6132762003942809
+Greer Nelson,Luke Cage,0.6139406135149205
+Greer Nelson,Binary (Carol Danvers),0.6933752452815364
+Greer Nelson,Daniel Rand,0.6933752452815365
+Greer Nelson,Thaddeus Ross,0.6933752452815364
+Greer Nelson,New Avengers,0.6933752452815365
+Greer Nelson,Wolverine (James Howlett),0.6933752452815365
+Greer Nelson,Jessica Drew,0.80860754006264
+Greer Nelson,Henry Pym,0.8086075400626398
+Greer Nelson,Noh-Varr (Earth-200080),1.0
+Greer Nelson,Angelica Jones,1.0
+Greer Nelson,Young Allies (Modern),1.0
+Greer Nelson,Doctor Strange,1.0
+Bast,T'Challa,0.6132762003942809
+Bast,Storm (Ororo Munroe),0.6933752452815364
+Bast,Shuri,0.8086075400626399
+Bast,Anubis,1.0
+Galan (Earth-2012),Reed Richards (Earth-99107),0.5421406629318819
+Galan (Earth-2012),Reed Richards (Earth-98570),0.5976959837804341
+Noh-Varr (Earth-200080),Jennifer Walters,0.508174928781181
+Noh-Varr (Earth-200080),Cult of the Negative Zone,0.5547001962252289
+Noh-Varr (Earth-200080),Anti-Priest,0.5547001962252289
+Noh-Varr (Earth-200080),Avengers,0.5532250579087965
+Noh-Varr (Earth-200080),Clinton Barton,0.6139406135149205
+Noh-Varr (Earth-200080),T'Challa,0.6132762003942809
+Noh-Varr (Earth-200080),Luke Cage,0.6139406135149205
+Noh-Varr (Earth-200080),Binary (Carol Danvers),0.6933752452815364
+Noh-Varr (Earth-200080),Daniel Rand,0.6933752452815365
+Noh-Varr (Earth-200080),Thaddeus Ross,0.6933752452815364
+Noh-Varr (Earth-200080),New Avengers,0.6933752452815365
+Noh-Varr (Earth-200080),Wolverine (James Howlett),0.6933752452815365
+Noh-Varr (Earth-200080),Jessica Drew,0.80860754006264
+Noh-Varr (Earth-200080),Henry Pym,0.8086075400626398
+Noh-Varr (Earth-200080),Greer Nelson,1.0
+Noh-Varr (Earth-200080),Angelica Jones,1.0
+Noh-Varr (Earth-200080),Young Allies (Modern),1.0
+Noh-Varr (Earth-200080),Doctor Strange,1.0
+Angelica Jones,Jennifer Walters,0.508174928781181
+Angelica Jones,Cult of the Negative Zone,0.5547001962252289
+Angelica Jones,Anti-Priest,0.5547001962252289
+Angelica Jones,Avengers,0.5532250579087965
+Angelica Jones,Clinton Barton,0.6139406135149205
+Angelica Jones,T'Challa,0.6132762003942809
+Angelica Jones,Luke Cage,0.6139406135149205
+Angelica Jones,Binary (Carol Danvers),0.6933752452815364
+Angelica Jones,Daniel Rand,0.6933752452815365
+Angelica Jones,Thaddeus Ross,0.6933752452815364
+Angelica Jones,New Avengers,0.6933752452815365
+Angelica Jones,Wolverine (James Howlett),0.6933752452815365
+Angelica Jones,Jessica Drew,0.80860754006264
+Angelica Jones,Henry Pym,0.8086075400626398
+Angelica Jones,Greer Nelson,1.0
+Angelica Jones,Noh-Varr (Earth-200080),1.0
+Angelica Jones,Young Allies (Modern),1.0
+Angelica Jones,Doctor Strange,1.0
+Young Allies (Modern),Jennifer Walters,0.508174928781181
+Young Allies (Modern),Cult of the Negative Zone,0.5547001962252289
+Young Allies (Modern),Anti-Priest,0.5547001962252289
+Young Allies (Modern),Avengers,0.5532250579087965
+Young Allies (Modern),Clinton Barton,0.6139406135149205
+Young Allies (Modern),T'Challa,0.6132762003942809
+Young Allies (Modern),Luke Cage,0.6139406135149205
+Young Allies (Modern),Binary (Carol Danvers),0.6933752452815364
+Young Allies (Modern),Daniel Rand,0.6933752452815365
+Young Allies (Modern),Thaddeus Ross,0.6933752452815364
+Young Allies (Modern),New Avengers,0.6933752452815365
+Young Allies (Modern),Wolverine (James Howlett),0.6933752452815365
+Young Allies (Modern),Jessica Drew,0.80860754006264
+Young Allies (Modern),Henry Pym,0.8086075400626398
+Young Allies (Modern),Greer Nelson,1.0
+Young Allies (Modern),Noh-Varr (Earth-200080),1.0
+Young Allies (Modern),Angelica Jones,1.0
+Young Allies (Modern),Doctor Strange,1.0
+Doctor Strange,Jennifer Walters,0.508174928781181
+Doctor Strange,Cult of the Negative Zone,0.5547001962252289
+Doctor Strange,Anti-Priest,0.5547001962252289
+Doctor Strange,Avengers,0.5532250579087965
+Doctor Strange,Clinton Barton,0.6139406135149205
+Doctor Strange,T'Challa,0.6132762003942809
+Doctor Strange,Luke Cage,0.6139406135149205
+Doctor Strange,Binary (Carol Danvers),0.6933752452815364
+Doctor Strange,Daniel Rand,0.6933752452815365
+Doctor Strange,Thaddeus Ross,0.6933752452815364
+Doctor Strange,New Avengers,0.6933752452815365
+Doctor Strange,Wolverine (James Howlett),0.6933752452815365
+Doctor Strange,Jessica Drew,0.80860754006264
+Doctor Strange,Henry Pym,0.8086075400626398
+Doctor Strange,Greer Nelson,1.0
+Doctor Strange,Noh-Varr (Earth-200080),1.0
+Doctor Strange,Angelica Jones,1.0
+Doctor Strange,Young Allies (Modern),1.0
+Cyclops (Scott Summers),Clinton Barton,0.6139406135149202
+Cyclops (Scott Summers),Luke Cage,0.6139406135149204
+Cyclops (Scott Summers),Daniel Rand,0.6933752452815363
+Cyclops (Scott Summers),New Avengers,0.6933752452815363
+Cyclops (Scott Summers),Wolverine (James Howlett),0.6933752452815363
+Cyclops (Scott Summers),X-Men,0.8072067113376871
+Cyclops (Scott Summers),White Queen (Emma Frost),0.8086075400626401
+Anubis,T'Challa,0.6132762003942809
+Anubis,Storm (Ororo Munroe),0.6933752452815364
+Anubis,Shuri,0.8086075400626399
+Anubis,Bast,1.0
+Doctor Doom,Robert Jema,0.49960254675483673
+Spider-Man (Peter Parker),Captain America (Steve Rogers),0.4814894843874591
+Boris Karela,Cyclops (Scott Summers),0.48076923076923067
+Alicia Masters,White Queen (Emma Frost),0.48034601374131
+Eldrac,Aladi Ko Eke,0.4791863575034158
+Smartship Friday,Katherine Power,0.47854715528197295
+Katherine Power,Smartship Friday,0.47854715528197295
+Dal Damoc,Gorgon Petragon,0.47026997156298017
+Dal Damoc,Avoe,0.4702699715629801
+Dal Damoc,Maximus Boltagon,0.4702699715629801
+Kristoff Vernard,Nathaniel Richards,0.466252404120157
+Nathaniel Richards,Kristoff Vernard,0.466252404120157
+Doctor Doom,Reed Richards (Earth-12498),0.4656415067820425
+Spider-Man (Peter Parker),Future Foundation,0.46538141767487595
+Susan Storm,Fantastic Four,0.46074538931183473
+Fantastic Four,Susan Storm,0.46074538931183473
+Ul-Uhar,Andromeda Attumasen,0.4583094633669325
+Spider-Man (Peter Parker),Andrew Forson,0.4489912593084551
+Jonathan Storm,The Thing,0.44262338502331483
+Galan,Andromeda Attumasen,0.4413049114256772
+Kristoff Vernard,Leech,0.43277126741463046
+Uatu,Harvey Elder,0.42874646285627216
+Uatu,Robert Jema,0.42874646285627216
+Uatu,Herbert Wyndham,0.42874646285627216
+Kristoff Vernard,Tong (Moloid),0.41702882811414954
+Galan (Earth-2012),Reed Richards (Earth-Unknown),0.41137667560372115
+Franklin Richards (Earth-10774),Kal Blackbane,0.40402670411713076
+Alicia Masters,Binary (Carol Danvers),0.39754347727831063
+Alicia Masters,New Avengers,0.3975434772783106
+Jonathan Storm,Susan Storm,0.38214857913340017
+Boris Karela,White Queen (Emma Frost),0.3805211953235952
+Boris Karela,Jessica Drew,0.3805211953235952
+Katherine Power,Franklin Richards (Earth-10774),0.3614324439397877
+Franklin Richards (Earth-10774),Katherine Power,0.3614324439397877
+Mister Fantastic,Fantastic Four,0.3508773210940423
+Ul-Uhar,Cult of the Negative Zone,0.3477348002620285
+Ul-Uhar,Anti-Priest,0.3477348002620285
+Nathaniel Richards (Earth-12498),Doctor Doom,0.3427245196081944
+Nathaniel Richards (Earth-12498),Valeria Richards (Earth-10774),0.3253956867279839
+Valeria Richards (Earth-10774),Nathaniel Richards (Earth-12498),0.3253956867279839
+Smartship Friday,Alex Ultron (Earth-807128),0.31895261282950665
+Smartship Friday,Ul-Uhar,0.3177804365768962
+Valeria Richards (Earth-10774),Nathaniel Richards,0.3
+Highly Engineered Robot Built for Interdimensional Exploration,Norrin Radd,0.29364006844420654
+Highly Engineered Robot Built for Interdimensional Exploration,Alicia Masters,0.2936400684442065
+Onome,Korr (Moloid),0.29351975428213717
+Onome,Turg (Moloid),0.28284271247461906
+Onome,Tong (Moloid),0.28284271247461895
+Katherine Power,Alicia Masters,0.27234429397426146
+Nathaniel Richards (Earth-12498),Nathaniel Richards,0.27116307227332037

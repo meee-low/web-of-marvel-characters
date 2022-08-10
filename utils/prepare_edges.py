@@ -7,15 +7,20 @@ WEIGHTS_OF_APPEARANCES = {"Appearances":1,
                            "Mentions":0.1,
                            "Invocations":0}
 
-def build_weights_df(table:pd.DataFrame) -> pd.DataFrame:
-    # change the type of appearance to a number based on the weights (global variable)
+def build_weights_df(table:pd.DataFrame, weights_dict:dict=WEIGHTS_OF_APPEARANCES, fill_na:bool=True) -> pd.DataFrame:
+    """
+    Converts the types of appearances to numeric values to be processed further (used in the correlation matrix).
+    
+    Uses the global variable WEIGHTS_OF_APPEARANCES to determine the weight of each appearance.
+    """
     weights = table.copy() #copy table to variable weights to avoid changing the original table
     
     #turn the categories into numbers according to the global weights dictionary
-    weights.iloc[:,1:] = weights.iloc[:,1:].astype('str').replace(WEIGHTS_OF_APPEARANCES).astype(np.float64)
+    weights.iloc[:,1:] = weights.iloc[:,1:].astype('str').replace(weights_dict).astype(np.float64)
     
     #pd.to_numeric(weights.iloc[:,1:]) # turn into numbers
-    weights = weights.fillna(0) # fill NaN (not an appearance in that issue) with 0
+    if fill_na:
+        weights = weights.fillna(0) # fill NaN (not an appearance in that issue) with 0
     #pd.to_numeric(weights.iloc[:,1:]) # turn into numbers again, to be sure
     weights.iloc[:,1:] = weights.iloc[:,1:].astype(np.float64)
     
@@ -25,7 +30,7 @@ def calculate_correlations(weights_df:pd.DataFrame) -> pd.DataFrame:
     """
     Calculates the correlation between each character.
     
-    This takes in a weights_df where the columns are issues and the rows are characters.
+    This takes in a weights_df where the columns are issues, the rows are characters and the values are numbers.
     """    
     #To use the .corr() method, we need the columns to be what we're correlating (i.e.: the characters).
     #Therefore, first we transpose the weights_df. Then we use the .corr() method to get the correlation matrix.
@@ -64,16 +69,21 @@ def build_edge_list(corr_matrix:pd.DataFrame) -> pd.DataFrame:
 def select_biggest_edges(edges:pd.DataFrame) -> pd.DataFrame:
     """
     Returns only the edges with the highest correlation for each source.
+    
+    Kept for compatibility with previous versions of the code. Use select_n_biggest_edges instead.
     """
-    # get the index of the biggest correlation for each source
-    source_corr = edges.loc[:, ["source", "correlation"]] #grab only the columns "source" and "correlation"
-    source_corr_grouped = source_corr.groupby("source", sort=False, as_index=False) # group by source 
-    indices_to_keep = source_corr_grouped.idxmax()["correlation"]
+    print("select_biggest_edges() is deprecated. Use select_n_biggest_edges() instead.")
+    return select_n_biggest_edges(edges, 1)
+
+def select_n_biggest_edges(edges:pd.DataFrame, n:int) -> pd.DataFrame:
+    """
+    Returns the top n edges with the highest correlation for each source.
+    """
+    edges_desc = edges.sort_values(by="correlation", ascending=False)
+    grouped = edges_desc.groupby("source", sort=False, as_index=False)
+    n_first = grouped.head(n)
     
-    max_edges = edges.loc[indices_to_keep, :] 
-    
-    #TO-DO: also keep others edges with the same exact correlation.
-    return max_edges
+    return n_first
 
 def select_edges_above_threshhold(edges:pd.DataFrame, threshold:float) -> pd.DataFrame:
     """
@@ -82,3 +92,33 @@ def select_edges_above_threshhold(edges:pd.DataFrame, threshold:float) -> pd.Dat
     edges_to_keep_bool = pd.Series(edges["correlation"] > threshold)
     edges = edges[edges_to_keep_bool]
     return edges
+
+def filter_edges(edges:pd.DataFrame, soft_floor:float, hard_floor:float, top_n:int) -> pd.DataFrame:
+    """
+    Keep the edges that satisfy either of:
+        - the correlation is above the soft floor
+        - the correlation is above the hard floor and it's one of the n strongest edges for the source    
+    
+    Parameters
+    ----------
+    edges : pd.DataFrame
+        the edges dataframe (columns: source, target, correlation)
+    soft_floor : float
+        All edges above this will be kept.
+    hard_floor : float
+        Any edge under this threshold will be removed, even if it's one of the top edges.
+    top_n: int
+        for each source, keep the top n edges
+        
+    Suggestion
+    ----------
+    soft_floor = 0.5
+    hard_floor = 0.2
+    top_n = 3
+    """
+    high_correlations  = select_edges_above_threshhold(edges, soft_floor)
+    top_n_edges = select_n_biggest_edges(edges, top_n)
+    #trim the top_n_edges to only include edges with a correlation greater than the hard threshold
+    top_n_edges = top_n_edges[top_n_edges["correlation"] > hard_floor]
+    
+    return pd.concat([high_correlations, top_n_edges]).drop_duplicates()

@@ -23,6 +23,7 @@ def make_graph_from_zero(series_to_scrape:list[ComicSeries], path:str="results",
         #       - /output
     
     if not scrape_from_wiki:
+        # load from the csv instead of scraping the wiki
         appearances_per_issue = pd.read_csv(os.path.join(data_path, "table_of_appearances.csv"))
     else:    
         # make folder to save data and graphs, if it doesn't exist already
@@ -46,26 +47,30 @@ def make_graph_from_zero(series_to_scrape:list[ComicSeries], path:str="results",
     
     # drop the characters with too few appearances
     # filter:
-    minimum_appearances = 2
-    frequent_characters = char_stats[char_stats.Appearances >= minimum_appearances] # could be some other criteria
-    # apply the filter:
-    appearances_per_issue = appearances_per_issue[appearances_per_issue["character name"].isin(frequent_characters["character name"])]
+    appearances_per_issue = process_appearances.filter_less_frequent_characters(appearances_per_issue,
+                                                                                key_df = char_stats,
+                                                                                min_number_of_apperances=2,
+                                                                                top_n_characters=200,
+                                                                                character_percentile=0.5)
+    # minimum_appearances = 2
+    # frequent_characters = char_stats[char_stats.Appearances >= minimum_appearances] # could be some other criteria
+    # # apply the filter:
+    # appearances_per_issue = appearances_per_issue[appearances_per_issue["character name"].isin(frequent_characters["character name"])]
     
     # calculate correlation matrix: 
     print("Calculating correlations...")
     weights = prepare_edges.build_weights_df(appearances_per_issue) # convert to numbers
     corr_matrix = prepare_edges.calculate_correlations(weights)
     
-    # turn into edge list
+    # convert from matrix to edge list
     print("Listing edges...")
     edge_list = prepare_edges.build_edge_list(corr_matrix)
     edge_list.to_csv(os.path.join(data_path, "edge_list.csv"), index=False)
     
     # select/prune some edges/nodes
     print("Filtering edges...")
-    edges_to_keep1 = prepare_edges.select_biggest_edges(edge_list)
-    edges_to_keep2 = prepare_edges.select_edges_above_threshhold(edge_list, 0.5)
-    edges_to_graph = pd.concat([edges_to_keep1, edges_to_keep2])   
+    edges_to_graph = prepare_edges.filter_edges(edge_list, 0.5, 0.2, 3)
+    edges_to_graph.to_csv(os.path.join(data_path, "edges_filtered.csv"), index=False)
     
     # convert to networkx graph object
     G = visualization.make_nx_graph(edges_to_graph)
@@ -89,9 +94,22 @@ class SettingsToTweak:
     desired_avg_edges_per_node:float = 3.0
     characters_to_keep_top_perc = 0.1
     characters_to_keep_min_appearances = 5
-    weight_for_minor_appearances = 0.5
-    weight_for_major_appearances = 1
-    weight_for_mentions = 0.1
+    
+    scrape_from_wiki = True # if true, scrape from wiki, otherwise use existing data
+        
+    
+    
+    weight_for_major_appearances: float = 1
+    weight_for_minor_appearances: float = 0.5
+    weight_for_mentions         : float = 0.1
+    weight_for_invocations      : float = 0
+    def weights_for_types_of_appearances(self):
+        return {
+            "Appearances"      : self.weight_for_major_appearances,
+            "Minor Appearances": self.weight_for_minor_appearances,
+            "Mentions"         : self.weight_for_mentions,
+            "invocations"      : self.weight_for_invocations
+        }
     
 @dataclass
 class Examples:
@@ -154,7 +172,7 @@ def main():
     examples = Examples()
     series_to_scrape = examples.krakoa_era
     #settings = SettingsToTweak()
-    make_graph_from_zero(series_to_scrape, title="Krakoa Era", scrape_from_wiki=False)
+    make_graph_from_zero(series_to_scrape, title="Hickman's Fantastic Four", scrape_from_wiki=False)
 
 if __name__ == "__main__":
     main()

@@ -47,15 +47,12 @@ def make_graph_from_zero(series_to_scrape:list[ComicSeries], path:str="results",
     
     # drop the characters with too few appearances
     # filter:
+    print("Dropping characters with too few appearances...")
     appearances_per_issue = process_appearances.filter_less_frequent_characters(appearances_per_issue,
                                                                                 key_df = char_stats,
                                                                                 min_number_of_apperances=2,
                                                                                 top_n_characters=200,
                                                                                 character_percentile=0.5)
-    # minimum_appearances = 2
-    # frequent_characters = char_stats[char_stats.Appearances >= minimum_appearances] # could be some other criteria
-    # # apply the filter:
-    # appearances_per_issue = appearances_per_issue[appearances_per_issue["character name"].isin(frequent_characters["character name"])]
     
     # calculate correlation matrix: 
     print("Calculating correlations...")

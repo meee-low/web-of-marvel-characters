@@ -1,3 +1,4 @@
 - Automatically set values for the cut-off threshold to trim the number of edges.
 - Automatically trim the less frequent characters.
-- Also save the data for each issue (date, writer, artist, etc.)
+- Also save the data for each issue (date, writer, artist, etc.) during the scraping process.
+- Implement settings.

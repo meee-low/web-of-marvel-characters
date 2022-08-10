@@ -47,7 +47,7 @@ def set_node_size(G:nx.Graph, size_key:pd.DataFrame) -> None:
     
     min_number_of_appearances = size_key["Appearances"].min()
     max_number_of_appearances = size_key["Appearances"].max()
-    desired_max_size = 35
+    desired_max_size = 50
     desired_min_size = 5
     
     for character, number_of_appearances in zip(sizes['character name'], sizes['Appearances']):

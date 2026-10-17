@@ -1,30 +1,36 @@
+from collections.abc import Mapping
+
 import pandas as pd
 import numpy as np
-#from tqdm import tqdm
 
-WEIGHTS_OF_APPEARANCES = {"Appearances":1,
-                           "Minor Appearances":0.5,
-                           "Mentions":0.1,
-                           "Invocations":0}
+WEIGHTS_OF_APPEARANCES: dict[str, float] = {
+    "Appearances": 1.0,
+    "Minor Appearances": 0.5,
+    "Mentions": 0.1,
+    "Invocations": 0.0,
+}
 
-def build_weights_df(table:pd.DataFrame, weights_dict:dict=WEIGHTS_OF_APPEARANCES, fill_na:bool=True) -> pd.DataFrame:
+
+def build_weights_df(
+    table: pd.DataFrame,
+    weights_dict: Mapping[str, float] | None = None,
+    fill_na: bool = True,
+) -> pd.DataFrame:
     """
     Converts the types of appearances to numeric values to be processed further (used in the correlation matrix).
     
     Uses the global variable WEIGHTS_OF_APPEARANCES to determine the weight of each appearance.
     """
-    weights = table.copy() #copy table to variable weights to avoid changing the original table
-    
-    #turn the categories into numbers according to the global weights dictionary
-    weights.iloc[:,1:] = weights.iloc[:,1:].astype('str').replace(weights_dict).astype(np.float64)
-    
-    #pd.to_numeric(weights.iloc[:,1:]) # turn into numbers
+    if weights_dict is None:
+        weights_dict = WEIGHTS_OF_APPEARANCES
+
+    character_column = table.iloc[:, [0]].copy()
+    appearance_values = table.iloc[:, 1:].replace(dict(weights_dict))
+    appearance_values = appearance_values.apply(pd.to_numeric, errors="coerce")
     if fill_na:
-        weights = weights.fillna(0) # fill NaN (not an appearance in that issue) with 0
-    #pd.to_numeric(weights.iloc[:,1:]) # turn into numbers again, to be sure
-    weights.iloc[:,1:] = weights.iloc[:,1:].astype(np.float64)
-    
-    return weights
+        appearance_values = appearance_values.fillna(0.0)
+
+    return pd.concat([character_column, appearance_values], axis=1)
 
 def calculate_correlations(weights_df:pd.DataFrame) -> pd.DataFrame:
     """

@@ -1,7 +1,8 @@
 from collections.abc import Mapping
 
 import pandas as pd
-import numpy as np
+
+from ..association import calculate_associations
 
 WEIGHTS_OF_APPEARANCES: dict[str, float] = {
     "Appearances": 1.0,
@@ -16,10 +17,13 @@ def build_weights_df(
     weights_dict: Mapping[str, float] | None = None,
     fill_na: bool = True,
 ) -> pd.DataFrame:
-    """
-    Converts the types of appearances to numeric values to be processed further (used in the correlation matrix).
-    
-    Uses the global variable WEIGHTS_OF_APPEARANCES to determine the weight of each appearance.
+    """Convert categorical appearances into a measure-ready wide table.
+
+    The returned DataFrame has one row per character. Its first column is the
+    original character-name column; every later column is one issue. Categorical
+    values are replaced using ``weights_dict`` and converted to floats. Missing
+    values become ``0.0`` when ``fill_na`` is true, which is the format expected
+    by association measures.
     """
     if weights_dict is None:
         weights_dict = WEIGHTS_OF_APPEARANCES
@@ -32,27 +36,9 @@ def build_weights_df(
 
     return pd.concat([character_column, appearance_values], axis=1)
 
-def calculate_correlations(weights_df:pd.DataFrame) -> pd.DataFrame:
-    """
-    Calculates the correlation between each character.
-    
-    This takes in a weights_df where the columns are issues, the rows are characters and the values are numbers.
-    """    
-    #To use the .corr() method, we need the columns to be what we're correlating (i.e.: the characters).
-    #Therefore, first we transpose the weights_df. Then we use the .corr() method to get the correlation matrix.
-    weights_df_T = weights_df.T 
-    
-    # But this makes a lot of junk as a side effect:
-    # The character names will become the first row, since that was the first column.
-    # We want to make that first row the *header* and remove it from the data values.
-    weights_df_T.columns = weights_df_T.iloc[0] # rename the column headers
-    weights_df_T = weights_df_T.iloc[1:, :] # drop the first row
-    
-    weights_df_T = weights_df_T.astype(np.float64) # turn back into numbers, now that text is gone from the values
-    
-    corr_matrix = weights_df_T.corr() # get the correlation matrix properly
-    corr_matrix.index.name = "" # cleanup: reset the index name (since it sets it to "character name" by default)
-    return corr_matrix
+def calculate_correlations(weights_df: pd.DataFrame) -> pd.DataFrame:
+    """Backward-compatible alias for the default association measure."""
+    return calculate_associations(weights_df)
 
 
 def build_edge_list(corr_matrix:pd.DataFrame) -> pd.DataFrame:

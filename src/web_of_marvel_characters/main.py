@@ -1,5 +1,6 @@
 from collections.abc import Sequence
 
+from .association import AssociationMeasure
 from .examples import Examples
 from .pipeline import run_pipeline
 from .utils.ComicSeries import ComicSeries
@@ -10,6 +11,7 @@ def make_graph_from_zero(
     path: str = "results",
     title: str = "",
     scrape_from_wiki: bool = True,
+    association_measure: AssociationMeasure | None = None,
 ) -> None:
     """Backward-compatible wrapper around the graph-building pipeline."""
     run_pipeline(
@@ -17,6 +19,7 @@ def make_graph_from_zero(
         output_root=path,
         title=title,
         scrape_from_wiki=scrape_from_wiki,
+        association_measure=association_measure,
     )
 
 

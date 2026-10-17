@@ -3,6 +3,7 @@ from collections.abc import Sequence
 
 import pandas as pd
 
+from .association import AssociationMeasure, calculate_associations
 from .utils import parse_issues, prepare_edges, process_appearances, scrape, visualization
 from .utils.ComicSeries import ComicSeries
 
@@ -13,8 +14,17 @@ def run_pipeline(
     output_root: Path | str = "results",
     title: str = "",
     scrape_from_wiki: bool = True,
+    association_measure: AssociationMeasure | None = None,
 ) -> None:
-    """Build appearance data, a character network, and an HTML visualization."""
+    """Build appearance data, a character network, and an HTML visualization.
+
+    ``association_measure`` receives the weighted appearance DataFrame from
+    ``build_weights_df``. That DataFrame contains one character per row, the
+    character name in its first column, and one numeric issue column per
+    remaining column. The callable must return a square character-by-character
+    DataFrame with matching row and column labels. When omitted, the existing
+    Pearson association is used.
+    """
     if not series_to_scrape:
         raise ValueError("At least one comic series is required")
 
@@ -53,10 +63,13 @@ def run_pipeline(
 
     print("Calculating correlations...")
     weights = prepare_edges.build_weights_df(appearances)
-    correlations = prepare_edges.calculate_correlations(weights)
+    if association_measure is None:
+        associations = calculate_associations(weights)
+    else:
+        associations = calculate_associations(weights, association_measure)
 
     print("Listing edges...")
-    edge_list = prepare_edges.build_edge_list(correlations)
+    edge_list = prepare_edges.build_edge_list(associations)
     edge_list.to_csv(data_dir / "edge_list.csv", index=False)
 
     print("Filtering edges...")

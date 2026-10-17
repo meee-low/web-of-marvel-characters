@@ -93,7 +93,13 @@ def show_graph(G: nx.Graph, notebook: bool = False, physics_buttons: bool = Fals
     net.write_html(str(file_path), notebook=notebook, open_browser=False)
     
     
-def linear_scale(x, min_x, max_x, min_y, max_y):
+def linear_scale(
+    x: float,
+    min_x: float,
+    max_x: float,
+    min_y: float,
+    max_y: float,
+) -> float:
     """
     Linear scale.
     

@@ -2,6 +2,7 @@ import unittest
 
 import pandas as pd
 
+from web_of_marvel_characters.association import calculate_associations
 from web_of_marvel_characters.utils import prepare_edges, process_appearances, visualization
 
 
@@ -46,6 +47,23 @@ class AnalysisTests(unittest.TestCase):
 
     def test_linear_scale_handles_constant_values(self) -> None:
         self.assertEqual(visualization.linear_scale(4, 4, 4, 5, 50), 27.5)
+
+    def test_association_measure_can_be_injected(self) -> None:
+        weights = pd.DataFrame(
+            {
+                "character name": ["A", "B"],
+                "Issue 1": [1.0, 0.0],
+            }
+        )
+        expected = pd.DataFrame([[1.0, 0.5], [0.5, 1.0]], index=["A", "B"], columns=["A", "B"])
+
+        def fake_measure(input_weights: pd.DataFrame) -> pd.DataFrame:
+            self.assertIs(input_weights, weights)
+            return expected
+
+        result = calculate_associations(weights, fake_measure)
+
+        pd.testing.assert_frame_equal(result, expected)
 
 
 if __name__ == "__main__":

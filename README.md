@@ -26,3 +26,5 @@ Link to the interactive graph: [link](https://meee-low.github.io/web-of-marvel-c
 1. Clone the repo
 2. Use Python 3.13 or newer and install the project environment with `uv sync`.
 3. Run `uv run web-of-marvel-characters`, changing the parameters in `main()` when needed.
+
+To work with the X-Men showcase notebook, open `showcase - x-men.ipynb` in VS Code and select the `.venv` Python environment, or start Jupyter with `uv run jupyter lab`.

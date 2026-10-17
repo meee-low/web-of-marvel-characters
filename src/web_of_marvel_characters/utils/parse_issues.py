@@ -76,7 +76,7 @@ def build_issue_table(issue:dict) -> pd.DataFrame:
         so we remove it from the name.
         """
         issue_table["character name"] = issue_table["character name"].str.replace("Category:", "")
-        issue_table["character name"] = issue_table["character name"].str.replace(" \(Earth-616\)", "", regex=True)
+        issue_table["character name"] = issue_table["character name"].str.replace(r" \(Earth-616\)", "", regex=True)
         #reminder: parenthesis are special characters in regex. They need to be escaped.
         
         return issue_table
@@ -131,7 +131,7 @@ def replace_aliases(main_table:pd.DataFrame) -> pd.DataFrame:
     """
     Replaces the character names for their aliases, as specified in the aliases module.
     """
-    main_table["character name"].replace(aliases.ALIASES, regex=False, inplace=True)
+    main_table["character name"] = main_table["character name"].replace(aliases.ALIASES, regex=False)
     return main_table
 
 def main():

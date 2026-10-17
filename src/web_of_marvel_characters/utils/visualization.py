@@ -2,9 +2,8 @@ import networkx as nx
 from pyvis.network import Network
 from community import community_louvain
 import pandas as pd
-import datetime
-import math
-import os
+from datetime import datetime, timezone
+from pathlib import Path
 
 def make_nx_graph(pandas_edgelist:pd.DataFrame) -> nx.Graph:
     """
@@ -68,7 +67,8 @@ def set_graph_attributes(G:nx.Graph, size_key:pd.DataFrame) -> None:
     set_node_size(G, size_key)
     partition_communities(G)
 
-def show_graph(G: nx.Graph, notebook:bool=False, physics_buttons:bool=False, title:str = "X-Men", save_path:str="output-test/") -> None:
+def show_graph(G: nx.Graph, notebook: bool = False, physics_buttons: bool = False,
+               title: str = "X-Men", save_path: str | Path = "output-test/") -> None:
     """
     Creates an html file of the graph using pyvis.
     """
@@ -86,9 +86,11 @@ def show_graph(G: nx.Graph, notebook:bool=False, physics_buttons:bool=False, tit
         net.repulsion()
         
     nodes, edges = len(G.nodes()), len(G.edges())
-    timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H-%M-%S")
-    file_path = os.path.join(save_path, f"{title}_{timestamp}_n{nodes}-e{edges}.html")
-    net.show(file_path, notebook=False)
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H-%M-%S")
+    output_dir = Path(save_path)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    file_path = output_dir / f"{title}_{timestamp}_n{nodes}-e{edges}.html"
+    net.write_html(str(file_path), notebook=notebook, open_browser=False)
     
     
 def linear_scale(x, min_x, max_x, min_y, max_y):
@@ -102,4 +104,6 @@ def linear_scale(x, min_x, max_x, min_y, max_y):
     b = min_y
     offset = min_x
     """
+    if max_x == min_x:
+        return (min_y + max_y) / 2
     return ((max_y - min_y) / (max_x - min_x)) * (x - min_x) + min_y

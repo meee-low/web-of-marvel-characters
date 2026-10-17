@@ -33,25 +33,20 @@ def build_full_list_of_issues(titles_to_download:list[ComicSeries]=TITLES_TO_DOW
     return full_list_of_issues
 
 
-def soup_from_url(url:str, retries=0, max_retries=3):
+def soup_from_url(url: str, max_retries: int = 3) -> BeautifulSoup:
     """
     Returns the soup from the url. If it fails, tries a maximum of max_retries times.
     """
-    response = requests.get(url)    
-    soup = BeautifulSoup(response.content, "html.parser")
-    
-    if response.status_code == 200:
-        # All good. Return.
-        return soup
-    elif retries <= max_retries: #retry at most this many tries
-        error_message = f"Tried to scrape and failed.   " \
-                        f"Response code: {response.status_code}   " \
-                        f"Tries: {retries}   " \
-                        f"len(soup): {len(soup)}   " \
-                        f"len(response.content()): {len(response.content)}   " \
-                        f"URL: {url.split('/')[-1]}"
-        logging.warning(error_message)
-        return soup_from_url(url, retries=retries+1)
-    else:
-        logging.error(f"Tried too many times and failed. Exiting.")
-        assert False #assert False is bad practice. create an err.
+    for attempt in range(max_retries + 1):
+        response = requests.get(url, timeout=30)
+        if response.ok:
+            return BeautifulSoup(response.content, "html.parser")
+
+        logging.warning(
+            "Request failed: status=%s attempt=%s url=%s",
+            response.status_code,
+            attempt + 1,
+            url,
+        )
+
+    raise RuntimeError(f"Could not fetch {url} after {max_retries + 1} attempts")

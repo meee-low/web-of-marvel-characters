@@ -21,6 +21,7 @@ Link to the interactive graph: [link](https://meee-low.github.io/web-of-marvel-c
 - networkx
 - python-louvain
 - pyvis
+- matplotlib (notebook)
 
 ## Instructions:
 1. Clone the repo
@@ -28,3 +29,7 @@ Link to the interactive graph: [link](https://meee-low.github.io/web-of-marvel-c
 3. Run `uv run web-of-marvel-characters`, changing the parameters in `main()` when needed.
 
 To work with the X-Men showcase notebook, open `showcase - x-men.ipynb` in VS Code and select the `.venv` Python environment, or start Jupyter with `uv run jupyter lab`.
+
+The application code lives under `src/web_of_marvel_characters/`. The command-line entry point is in `main.py`, the reusable graph workflow is in `pipeline.py`, and the example comic-series selections are in `examples.py`.
+
+Run the regression checks with `uv run python -m unittest discover -s tests -v`.

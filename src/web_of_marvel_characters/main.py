@@ -1,6 +1,6 @@
 from inspect import CO_OPTIMIZED
-from utils import scrape, parse_issues, prepare_edges, process_appearances, visualization
-from utils.ComicSeries import ComicSeries
+from .utils import scrape, parse_issues, prepare_edges, process_appearances, visualization
+from .utils.ComicSeries import ComicSeries
 import os
 import pandas as pd
 from dataclasses import dataclass

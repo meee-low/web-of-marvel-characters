@@ -1,5 +1,5 @@
 import pandas as pd
-from utils import scrape, aliases
+from . import scrape, aliases
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from pandas.api.types import CategoricalDtype

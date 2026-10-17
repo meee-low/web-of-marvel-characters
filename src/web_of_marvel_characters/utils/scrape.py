@@ -1,4 +1,4 @@
-from utils.ComicSeries import ComicSeries
+from .ComicSeries import ComicSeries
 import requests
 from bs4 import BeautifulSoup
 import logging

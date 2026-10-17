@@ -88,7 +88,7 @@ def show_graph(G: nx.Graph, notebook:bool=False, physics_buttons:bool=False, tit
     nodes, edges = len(G.nodes()), len(G.edges())
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H-%M-%S")
     file_path = os.path.join(save_path, f"{title}_{timestamp}_n{nodes}-e{edges}.html")
-    net.show(file_path)
+    net.show(file_path, notebook=False)
     
     
 def linear_scale(x, min_x, max_x, min_y, max_y):

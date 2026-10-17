@@ -19,10 +19,10 @@ Link to the interactive graph: [link](https://meee-low.github.io/web-of-marvel-c
 - bs4
 - requests
 - networkx
-- community
+- python-louvain
 - pyvis
 
 ## Instructions:
 1. Clone the repo
-2. Install the requirements with pip install -r requirements.txt
-3. Run the script in main.py, changing the parameters in the main() function in that file.
+2. Use Python 3.13 or newer and install the project environment with `uv sync`.
+3. Run `uv run web-of-marvel-characters`, changing the parameters in `main()` when needed.

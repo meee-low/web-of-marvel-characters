@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+
+[project]
+name = "web-of-marvel-characters"
+version = "0.1.0"
+description = "A database of Marvel characters and visualization tools."
+requires-python = ">=3.13"
+scripts = { web-of-marvel-characters = "web_of_marvel_characters.main:main" }
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "networkx>=3.4",
+    "numpy>=2.1.0",
+    "pandas>=2.2.3,<3.0",
+    "python-louvain>=0.16",
+    "pyvis>=0.3.2",
+    "requests>=2.32.3",
+    "tqdm>=4.66.5",
+]
